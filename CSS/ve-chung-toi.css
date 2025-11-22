@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+}
+
+header {
+    background:#222;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 50px;
+}
+
+header nav a {
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.logo img {
+    height:50px;
+}
+
+.gioi-thieu {
+    background:white;
+    padding:30px 50px;
+    margin:20px;
+    border-radius:10px;
+}
+
+.gioi-thieu h2, .gioi-thieu h3 {
+    margin-top:20px;
+}
+
+.gioi-thieu p {
+    margin-top:10px;
+    line-height:1.6;
+}
+
+footer {
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}

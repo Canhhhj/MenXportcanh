@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENXPORT | Thiết bị thể thao MenXport chuẩn showroom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/giao-dien-chinh.css">
+</head>
+<body class="home-page">
+    <!-- Utility strip -->
+    <div class="utility-strip">
+        <div class="container util-wrapper">
+            <div class="util-left">
+                <span><i class="fa-solid fa-envelope"></i> menxportvietnam@gmail.com</span>
+                <span><i class="fa-solid fa-phone"></i> 0878 153 630</span>
+                <span><i class="fa-solid fa-location-dot"></i> Số 31, Ngõ 521, Phạm Văn Đồng, Hà Nội</span>
+            </div>
+            <div class="util-right">
+                <span><i class="fa-solid fa-shield-heart"></i> Bảo hành chính hãng</span>
+                <span><i class="fa-solid fa-truck-fast"></i> Miễn phí vận chuyển toàn quốc</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-main">
+            <div class="logo">
+                <a href="trang-chu.html">
+                    <img src="../taiNguyen/img/logo/logomenxport.png" alt="MENXPORT">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <a href="trang-chu.html" class="active">Trang chủ</a>
+                <a href="ve-chung-toi.html">Giới thiệu</a>
+                <a href="san-pham.html">Sản phẩm</a>
+                <a href="tin-tuc.html">Tin tức</a>
+                <a href="lien-he.html">Liên hệ</a>
+            </nav>
+            <div class="header-actions">
+                <div class="search-field">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <a href="#"><i class="fa-regular fa-user"></i></a>
+                <a href="gio-hang.html" class="cart-link">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+        <div class="container nav-highlight">
+            <div class="menu-trigger" id="category-menu-trigger">
+                <i class="fa-solid fa-bars"></i>
+                <span>Danh mục sản phẩm</span>
+                <div class="category-dropdown" id="category-dropdown" style="display: none;">
+                    <div class="dropdown-loading">Đang tải sản phẩm...</div>
+                    <div class="dropdown-products" id="dropdown-products"></div>
+                </div>
+            </div>
+            <ul class="nav-pills">
+                <li><a href="san-pham.html?category=combo">Combo thể thao</a></li>
+                <li><a href="san-pham.html?category=banh-ta">Plate & bánh tạ</a></li>
+                <li><a href="san-pham.html?category=ta-don">Thanh đòn tay</a></li>
+                <li><a href="san-pham.html?category=phu-kien">Phụ kiện boxing</a></li>
+                <li><a href="lien-he.html#setup">Tư vấn dụng cụ thể thao</a></li>
+            </ul>
+            <a href="tel:0878153630" class="nav-hotline">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>Hotline 0878 153 630</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero block -->
+        <section class="hero-block container">
+            <aside class="category-panel">
+                <h3><i class="fa-solid fa-layer-group"></i> Danh mục nhanh</h3>
+                <ul>
+                    <li><a href="san-pham.html?category=combo">Combo thể thao</a></li>
+                    <li><a href="san-pham.html?category=ta-don">Tạ đơn, tạ đa năng</a></li>
+                    <li><a href="san-pham.html?category=banh-ta">Bánh tạ phi 27 - 50</a></li>
+                    <li><a href="san-pham.html?category=phu-kien">Boxing & phụ kiện</a></li>
+                    <li><a href="san-pham.html">Khuyến mãi trong tuần</a></li>
+                </ul>
+            </aside>
+
+            <div class="hero-slider">
+                <div class="hero-slide active" style="background-image:url('../taiNguyen/img/banner/banner1.png');">
+                    <div class="hero-content">
+                        <p class="eyebrow">Combo quà tặng 1.900K</p>
+                        <h1>Dụng cụ thể thao tại nhà</h1>
+                        <p>Giảm ngay 300K + freeship + quà tặng điện giải cho đơn combo DK02.</p>
+                        <div class="hero-actions">
+                            <a href="san-pham.html?category=combo" class="btn btn-primary">Đặt combo ngay</a>
+                            <a href="lien-he.html" class="btn btn-secondary">Nhận tư vấn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide" style="background-image:url('../taiNguyen/img/banner/banner2.png');">
+                    <div class="hero-content">
+                        <p class="eyebrow">Menxport Signature</p>
+                        <h1>Dụng cụ thể thao chuyên nghiệp</h1>
+                        <p>Chất lượng cao, giá cả hợp lý, giao hàng nhanh toàn quốc.</p>
+                        <div class="hero-actions">
+                            <a href="san-pham.html" class="btn btn-primary">Xem sản phẩm</a>
+                            <a href="lien-he.html" class="btn btn-secondary">Tư vấn ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide" style="background-image:url('../taiNguyen/img/banner/banner3.png');">
+                    <div class="hero-content">
+                        <p class="eyebrow">Flash sale 48H</p>
+                        <h1>Dụng cụ thể thao MenXport</h1>
+                        <p>Giảm đến 25%, giao nhanh trong 2h tại Hà Nội & TP.HCM.</p>
+                        <div class="hero-actions">
+                            <a href="san-pham.html" class="btn btn-primary">Xem sản phẩm</a>
+                            <a href="lien-he.html" class="btn btn-secondary">Tư vấn ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-dots">
+                    <button class="hero-dot active"></button>
+                    <button class="hero-dot"></button>
+                    <button class="hero-dot"></button>
+                </div>
+            </div>
+
+            <aside class="hero-highlight">
+                <div class="highlight-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h4>Bảo hành 1 đổi 1</h4>
+                    <p>Trong 30 ngày với tạ & phụ kiện.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <h4>Trả góp 0%</h4>
+                    <p>Qua thẻ tín dụng & ví điện tử.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fa-solid fa-headset"></i>
+                    <h4>Chuyên gia đồng hành</h4>
+                    <p>Tư vấn dụng cụ thể thao miễn phí.</p>
+                </div>
+            </aside>
+        </section>
+
+        <!-- USP bar -->
+        <section class="usp-bar">
+            <div class="container usp-grid">
+                <article>
+                    <i class="fa-solid fa-truck"></i>
+                    <div>
+                        <h4>Miễn phí vận chuyển</h4>
+                        <p>Toàn quốc, giao nhanh 2H nội thành</p>
+                    </div>
+                </article>
+                <article>
+                    <i class="fa-solid fa-medal"></i>
+                    <div>
+                        <h4>Thương hiệu quốc tế</h4>
+                        <p>Nhật, USA, Hàn Quốc độc quyền</p>
+                    </div>
+                </article>
+                <article>
+                    <i class="fa-solid fa-house-signal"></i>
+                    <div>
+                    <h4>Lắp đặt tận nơi</h4>
+                    <p>Tư vấn và lắp đặt dụng cụ thể thao miễn phí</p>
+                    </div>
+                </article>
+                <article>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <div>
+                        <h4>Bảo trì trọn đời</h4>
+                        <p>Đội kỹ thuật phủ toàn quốc</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Spotlight -->
+        <section class="product-section dark-bg">
+            <div class="section-heading container">
+                <div>
+                    <p class="eyebrow">MENXPORT POWER DROP</p>
+                    <h2>Săn Deal MenXport – Flash Sale 48H</h2>
+                </div>
+                <a href="san-pham.html" class="btn btn-secondary">Xem tất cả</a>
+            </div>
+            <div class="container product-grid" id="spotlight-grid"></div>
+        </section>
+
+        <!-- Best sellers -->
+        <section class="product-section">
+            <div class="section-heading container">
+                <div>
+                    <p class="eyebrow">Top Ranking</p>
+                    <h2>Sản phẩm bán chạy</h2>
+                </div>
+                <div class="section-tabs">
+                    <button class="active">Tạ tay</button>
+                    <button>Combo</button>
+                    <button>Phụ kiện</button>
+                </div>
+            </div>
+            <div class="container product-grid" id="best-seller-grid"></div>
+        </section>
+
+        <!-- Combo area -->
+        <section class="product-section light-bg">
+            <div class="section-heading container">
+                <div>
+                    <p class="eyebrow">Combo thể thao</p>
+                    <h2>Chọn gói & nhận lắp đặt miễn phí</h2>
+                </div>
+                <a href="san-pham.html?category=combo" class="btn btn-secondary">Xem combo</a>
+            </div>
+            <div class="container product-grid" id="combo-grid"></div>
+        </section>
+
+        <!-- Full catalog preview -->
+        <section class="product-section">
+            <div class="section-heading container">
+                <div>
+                    <p class="eyebrow">Danh mục đầy đủ</p>
+                    <h2>Tất cả sản phẩm MenXport</h2>
+                    <p style="color: var(--gray); margin-top: 0.5rem;">Hiển thị 24 sản phẩm/trang – duyệt các trang để xem toàn bộ danh mục.</p>
+                </div>
+                <a href="san-pham.html" class="btn btn-secondary">Xem trang sản phẩm</a>
+            </div>
+            <div class="container">
+                <div class="product-grid" id="home-all-products-grid"></div>
+                <div class="pagination" id="home-products-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Split CTA -->
+        <section class="split-cta container">
+            <div class="cta-text">
+                <p class="eyebrow">Power Departure</p>
+                <h2>Tư vấn dụng cụ thể thao miễn phí</h2>
+                <p>Menxport sẽ tư vấn, đề xuất danh mục sản phẩm phù hợp và dự toán ngân sách theo nhu cầu của bạn.</p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Lựa chọn thiết bị theo mục tiêu tập luyện</li>
+                    <li><i class="fa-solid fa-check"></i> Bảng ngân sách linh hoạt từng giai đoạn</li>
+                    <li><i class="fa-solid fa-check"></i> Đội kỹ thuật lắp đặt trong 24h</li>
+                </ul>
+                <div class="hero-actions">
+                    <a href="lien-he.html" class="btn btn-primary">Đặt lịch tư vấn</a>
+                    <a href="tel:0878153630" class="btn btn-secondary">Gọi chuyên gia</a>
+                </div>
+            </div>
+            <div class="cta-media">
+                <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1200&q=80" alt="Menxport showroom">
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section class="blog-section">
+            <div class="container section-heading">
+                <div>
+                    <p class="eyebrow">Menxport Blog</p>
+                    <h2>Kiến thức luyện tập & dinh dưỡng</h2>
+                </div>
+                <a href="tin-tuc.html" class="btn btn-secondary">Xem thêm bài viết</a>
+            </div>
+            <div class="container blog-grid">
+                <article>
+                    <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=800&q=80" alt="Bột điện giải">
+                    <div>
+                        <p class="eyebrow">Review sản phẩm</p>
+                        <h3>Bột điện giải Kamizol – Bí quyết giữ sức bền</h3>
+                        <p>Lý do dân bodybuilding tin dùng Kamizol cho buổi tập nặng? Chúng tôi giải mã thành phần và cách pha chuẩn.</p>
+                        <a href="#">Đọc ngay <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80" alt="Giảm đau cơ">
+                    <div>
+                        <p class="eyebrow">Sức khỏe - Thể thao</p>
+                        <h3>Đột quỵ khi tập nặng: dấu hiệu cảnh báo</h3>
+                        <p>Nhận diện triệu chứng, thời điểm cần dừng tập và phác đồ hồi phục chuẩn, có lời khuyên từ chuyên gia Menxport.</p>
+                        <a href="#">Xem chi tiết <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80" alt="Dinh dưỡng">
+                    <div>
+                        <p class="eyebrow">Cộng đồng</p>
+                        <h3>Có nên ăn đồ hộp khi siết cân?</h3>
+                        <p>Chúng tôi phân tích thành phần, cách kết hợp protein – carb – fat với đồ hộp giúp tiết kiệm thời gian meal prep.</p>
+                        <a href="#">Khám phá <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact-band">
+            <div class="container contact-grid">
+                <div>
+                    <p class="eyebrow">Liên hệ Menxport</p>
+                    <h2>Dụng cụ thể thao chuyên nghiệp</h2>
+                    <p>Số 31, Ngõ 521, Phạm Văn Đồng, Hà Nội</p>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i> 0878 153 630</li>
+                        <li><i class="fa-solid fa-envelope"></i> menxportvietnam@gmail.com</li>
+                        <li><i class="fa-solid fa-clock"></i> Hỗ trợ tất cả các giờ trong ngày</li>
+                    </ul>
+                </div>
+                <div class="map-frame">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.747994374739!2d105.77057407609073!3d21.00290498800809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzEgTmfDuiA1MjEsIFBo4bqhbeG7mSBWxINuIMSQ4buNbmcsIEjDoGkgQsOsbmgsIEjDoGkgQsOsbmgsIFZpZXRuYW0!5e0!3m2!1svi!2s!4v1732100000000!5m2!1svi!2s&q=Số+31+Ngõ+521+Phạm+Văn+Đồng+Hà+Nội" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <img src="../taiNguyen/img/logo/logomenxport.png" alt="Menxport">
+                <p>Power Departure. Chuyên gia cung cấp dụng cụ thể thao chất lượng cao với thương hiệu MenXport đặc trưng.</p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/share/17iakPF9Md/?mibextid=wwXIfr" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/@MenXportVietNam" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@menxnportvietnam?_r=1&_t=ZS-91ZUed3xJHm" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="tel:0878153630" title="Zalo - Gọi để kết nối Zalo"><i class="fab fa-zalo"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4>Danh mục</h4>
+                <ul>
+                    <li><a href="san-pham.html?category=combo">Combo thể thao</a></li>
+                    <li><a href="san-pham.html?category=ta-don">Tạ tay - Bánh tạ</a></li>
+                    <li><a href="san-pham.html?category=phu-kien">Phụ kiện Boxing</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Hỗ trợ khách hàng</h4>
+                <ul>
+                    <li><a href="chinh-sach-doi-tra.html">Chính sách đổi trả</a></li>
+                    <li><a href="chinh-sach-bao-mat.html">Chính sách bảo mật</a></li>
+                    <li><a href="dieu-kien-bao-hanh.html">Điều kiện bảo hành</a></li>
+                    <li><a href="phuong-thuc-thanh-toan.html">Phương thức thanh toán</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Nhận ưu đãi sớm</h4>
+                <p>Đăng ký để nhận lịch flash sale MenXport mỗi tuần.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Email của bạn">
+                    <button type="submit" class="btn btn-primary">Đăng ký</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-company-info" style="text-align: center; padding: 20px 0; border-top: 1px solid #eee; margin-top: 20px;">
+            <p style="margin: 5px 0;"><strong>CÔNG TY MENXPORT</strong></p>
+            <p style="margin: 5px 0; color: #666;">Địa chỉ: Số 31, Ngõ 521, Phạm Văn Đồng, Hà Nội</p>
+            <p style="margin: 5px 0; color: #666;">Hotline: 0878 153 630 | Email: menxportvietnam@gmail.com</p>
+        </div>
+        <p class="copyright">© 2025 MENXPORT - POWER DEPARTURE. Mọi quyền được bảo lưu.</p>
+    </footer>
+
+    <script src="../JS/xu-ly-chung.js" defer></script>
+</body>
+</html>

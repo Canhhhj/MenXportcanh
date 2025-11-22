@@ -1,0 +1,566 @@
+[
+  {
+    "id": "sp1-b-t-8-c-nh-dks-20kg",
+    "ten": "Bộ Tạ 8 Cạnh DKS 20KG",
+    "gia": 1650000,
+    "gia_khuyen_mai": 1350000,
+    "badge": "-18%",
+    "category": "banh-ta",
+    "brand": "Menxport Labs",
+    "tags": [
+      "flash-sale",
+      "best-seller"
+    ],
+    "mo_ta_ngan": "Miếng tạ 8 cạnh phủ cao su giảm ồn, chuẩn đường kính 50mm, phù hợp mọi không gian thể thao tại nhà.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/1.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/2.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/3.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/4.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/5.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/6.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/7.webp"
+    ],
+    "dac_diem": [
+      "Lõi gang đúc nguyên khối phủ cao su chống xước sàn",
+      "Thiết kế 8 cạnh chống lăn, dễ xếp chồng",
+      "Đi kèm khóa thép mạ chrome Menxport",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp1.html"
+  },
+  {
+    "id": "sp2-thanh-n-c-m-tay-mx-35cm",
+    "ten": "Thanh Đòn Cầm Tay MX 35cm",
+    "gia": 450000,
+    "gia_khuyen_mai": 390000,
+    "badge": "-13%",
+    "category": "ta-don",
+    "brand": "Menxport Steel",
+    "tags": [
+      "flash-sale",
+      "best-seller"
+    ],
+    "mo_ta_ngan": "Thanh đòn mini 35cm, tay cầm khía kim cương chống trượt, tương thích đĩa tạ phi 27.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/1.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/2.jpg",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/3.webp",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/4.webp",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/5.jpg",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/6.webp",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/7.webp"
+    ],
+    "dac_diem": [
+      "Thép đặc mạ chrome bóng, chịu tải 120KG",
+      "Đầu ren chuẩn phi 27, kèm khóa bướm",
+      "Phù hợp các bài tập tay trước – tay sau tại nhà",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp2.html"
+  },
+  {
+    "id": "sp3-k-p-b-p-tay-th-p-pro-70lbs",
+    "ten": "Kẹp Bóp Tay Thép Pro 70lbs",
+    "gia": 320000,
+    "gia_khuyen_mai": 260000,
+    "badge": "-19%",
+    "category": "phu-kien",
+    "brand": "Menxport Gear",
+    "tags": [
+      "flash-sale",
+      "best-seller"
+    ],
+    "mo_ta_ngan": "Kẹp bóp tay lò xo thép, tăng lực nắm và sức bền cẳng tay cho vận động viên.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/1.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/2.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/3.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/4.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/5.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/6.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/7.webp"
+    ],
+    "dac_diem": [
+      "Điều chỉnh lực 20–70lbs",
+      "Tay cầm bọc cao su chống trượt",
+      "Kích thước bỏ túi mang đi mọi nơi",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Không cần lắp đặt, sử dụng ngay"
+    ],
+    "detail_page": "chitietsp/sp3.html"
+  },
+  {
+    "id": "sp4-g-y-b-ng-ch-y-h-p-kim-mx-28-",
+    "ten": "Gậy Bóng Chày Hợp Kim MX 28\"",
+    "gia": 890000,
+    "gia_khuyen_mai": 760000,
+    "badge": "-15%",
+    "category": "phu-kien",
+    "brand": "Menxport Combat",
+    "tags": [
+      "flash-sale",
+      "best-seller"
+    ],
+    "mo_ta_ngan": "Gậy hợp kim sắt sơn tĩnh điện, dùng cho luyện tập phản xạ và tự vệ.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt STT16/1.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt STT16/2.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt STT16/3.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt STT16/4.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt STT16/5.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt STT16/6.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt STT16/7.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt STT16/8.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt STT16/9.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt STT16/10.webp"
+    ],
+    "dac_diem": [
+      "Trọng lượng cân bằng, dễ xoay trở",
+      "Lớp sơn chống trầy, không bong",
+      "Tay cầm quấn da tổng hợp êm ái",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Không cần lắp đặt, sử dụng ngay"
+    ],
+    "detail_page": "chitietsp/sp4.html"
+  },
+  {
+    "id": "sp5-t-i-eo-h-ng-th-thao-mx",
+    "ten": "Túi Đeo Hông Thể Thao MX",
+    "gia": 420000,
+    "gia_khuyen_mai": 360000,
+    "badge": "-14%",
+    "category": "phu-kien",
+    "brand": "Menxport Apparel",
+    "tags": [
+      "flash-sale",
+      "best-seller"
+    ],
+    "mo_ta_ngan": "Túi đeo hông chống nước, đủ chỗ cho điện thoại, bình điện giải và phụ kiện nhỏ.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/1.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/2.webp",
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/3.webp",
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/4.webp",
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/5.webp",
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/6.webp",
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/7.webp"
+    ],
+    "dac_diem": [
+      "Chất liệu Oxford chống thấm",
+      "Khóa kéo YKK bền bỉ",
+      "Có ngăn riêng cho bình VNPAY QR",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Không cần lắp đặt, sử dụng ngay"
+    ],
+    "detail_page": "chitietsp/sp5.html"
+  },
+  {
+    "id": "sp6-t-eo-ch-n-tay-m-t-s-t-0-6kg-0-",
+    "ten": "Tạ đeo chân tay mạt sắt 0.6kg (0.3x2)",
+    "gia": 244000,
+    "gia_khuyen_mai": 244000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Tạ đeo chân tay mạt sắt dạng quấn, giúp tăng sức mạnh cơ chân tay và thể lực, phù hợp tập luyện tại nhà hoặc ngoài trời.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp6.Tạ đeo chân tay mạt sắt STT1/vn-11134207-7r98o-lx817cacetw923.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp6.Tạ đeo chân tay mạt sắt STT1/vn-11134207-7r98o-lx817cacj1llbe.webp",
+      "../taiNguyen/img/sanpham/sp6.Tạ đeo chân tay mạt sắt STT1/vn-11134207-7r98o-lx817cacluqh0f.webp"
+    ],
+    "dac_diem": [
+      "Bộ tạ 0.6kg (0.3kg x 2), chất liệu mạt sắt, bọc vải êm ái.",
+      "Quai dán chắc chắn, dễ điều chỉnh theo vòng cổ tay, cổ chân.",
+      "Phù hợp đi bộ, chạy bộ, tập aerobic, tập phục hồi chức năng.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp6.html"
+  },
+  {
+    "id": "sp7-b-t-s-t-m-i-n-sp124-15kg",
+    "ten": "Bộ tạ sắt mạ điện SP124 - 15kg",
+    "gia": 1279000,
+    "gia_khuyen_mai": 1279000,
+    "badge": null,
+    "category": "banh-ta",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Bộ tạ đĩa sắt mạ điện SP124 gồm thanh đòn, khóa xiết và đĩa tạ đủ tải 15kg, phù hợp tập luyện tại nhà.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp7.Bộ tạ sắt mạ điện SP124 STT2/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp7.Bộ tạ sắt mạ điện SP124 STT2/image copy.png",
+      "../taiNguyen/img/sanpham/sp7.Bộ tạ sắt mạ điện SP124 STT2/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp7.Bộ tạ sắt mạ điện SP124 STT2/image copy 3.png",
+      "../taiNguyen/img/sanpham/sp7.Bộ tạ sắt mạ điện SP124 STT2/image copy 4.png"
+    ],
+    "dac_diem": [
+      "Đĩa tạ sắt mạ điện chống rỉ, bền màu.",
+      "Thanh đòn chắc chắn, chịu lực tốt.",
+      "Khóa chặt an toàn, dễ tháo lắp.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp7.html"
+  },
+  {
+    "id": "sp8-t-l-i-b-t-ng-v-nh-a-10kg",
+    "ten": "Tạ lõi bê tông vỏ nhựa 10kg",
+    "gia": 330000,
+    "gia_khuyen_mai": 330000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Tạ tay lõi bê tông, vỏ nhựa bền đẹp, giúp luyện cơ tay, vai, ngực tại nhà.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp8.Tạ lõi bê tông vỏ nhựa/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp8.Tạ lõi bê tông vỏ nhựa/image copy.png",
+      "../taiNguyen/img/sanpham/sp8.Tạ lõi bê tông vỏ nhựa/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp8.Tạ lõi bê tông vỏ nhựa/image copy 3.png",
+      "../taiNguyen/img/sanpham/sp8.Tạ lõi bê tông vỏ nhựa/image copy 4.png"
+    ],
+    "dac_diem": [
+      "Lõi bê tông chắc chắn, bọc nhựa bảo vệ sàn.",
+      "Tay cầm kim loại chống trượt.",
+      "Thiết kế gọn, phù hợp home gym.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp8.html"
+  },
+  {
+    "id": "sp9-t-m-en-sp104-2kg",
+    "ten": "Tạ ấm đen SP104 - 2kg",
+    "gia": 343000,
+    "gia_khuyen_mai": 343000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Tạ ấm đen SP104 2kg bằng gang bọc cao su, phù hợp tập luyện toàn thân tại nhà.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp9.Tạ ấm đen SP104/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp9.Tạ ấm đen SP104/image copy.png",
+      "../taiNguyen/img/sanpham/sp9.Tạ ấm đen SP104/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp9.Tạ ấm đen SP104/image copy 3.png",
+      "../taiNguyen/img/sanpham/sp9.Tạ ấm đen SP104/image copy 4.png",
+      "../taiNguyen/img/sanpham/sp9.Tạ ấm đen SP104/image copy 5.png"
+    ],
+    "dac_diem": [
+      "Tay cầm phủ sơn nhám chống trượt.",
+      "Đế phẳng, đặt chắc chắn trên sàn.",
+      "Kích thước gọn gàng, dễ mang theo.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp9.html"
+  },
+  {
+    "id": "sp10-l-u-picnic-d-ngo-i-sp028",
+    "ten": "Lều picnic dã ngoại SP028",
+    "gia": 930000,
+    "gia_khuyen_mai": 930000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Lều picnic dã ngoại SP028 kích thước 200 x 200 x 145cm, đủ chỗ cho 3-4 người, phù hợp đi phượt và camping.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp10.Lều picnic dã ngoại SP028/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp10.Lều picnic dã ngoại SP028/image copy.png",
+      "../taiNguyen/img/sanpham/sp10.Lều picnic dã ngoại SP028/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp10.Lều picnic dã ngoại SP028/image copy 3.png",
+      "../taiNguyen/img/sanpham/sp10.Lều picnic dã ngoại SP028/image copy 4.png"
+    ],
+    "dac_diem": [
+      "Vải chống nước, chống tia UV.",
+      "Khung thép dẻo, dựng nhanh.",
+      "Có cửa sổ thông gió, màn chống côn trùng.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp10.html"
+  },
+  {
+    "id": "sp11-b-t-12-c-nh-sp122-10kg",
+    "ten": "Bộ tạ 12 cạnh SP122 - 10kg",
+    "gia": 690000,
+    "gia_khuyen_mai": 690000,
+    "badge": null,
+    "category": "banh-ta",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Bộ tạ 12 cạnh SP122 phiên bản 10kg, chống lăn, phù hợp tập luyện linh hoạt tại nhà.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp11.Bộ tạ 12 cạnh SP122 STT4/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp11.Bộ tạ 12 cạnh SP122 STT4/image copy.png",
+      "../taiNguyen/img/sanpham/sp11.Bộ tạ 12 cạnh SP122 STT4/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp11.Bộ tạ 12 cạnh SP122 STT4/image copy 3.png"
+    ],
+    "dac_diem": [
+      "Thiết kế 12 cạnh chống lăn.",
+      "Đĩa tạ phủ cao su hạn chế ồn.",
+      "Thanh đòn chắc chắn, khóa an toàn.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp11.html"
+  },
+  {
+    "id": "sp12-x-n-ch-ng-xoay-sp008-72-110cm",
+    "ten": "Xà đơn chống xoay SP008 72-110cm",
+    "gia": 335000,
+    "gia_khuyen_mai": 335000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Xà đơn treo tường SP008 chống xoay, độ dài tùy chỉnh 72-110cm, phù hợp tập gym tại nhà.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp12.Xà đơn chống xoay STT5/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp12.Xà đơn chống xoay STT5/image copy.png",
+      "../taiNguyen/img/sanpham/sp12.Xà đơn chống xoay STT5/image copy 2.png"
+    ],
+    "dac_diem": [
+      "Khóa chống xoay, chịu tải cao.",
+      "Đệm cao su bảo vệ khung cửa.",
+      "Lắp đặt không khoan bắt.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp12.html"
+  },
+  {
+    "id": "sp13-x-n-treo-t-ng-sp011-m-t-ng-n-8",
+    "ten": "Xà đơn treo tường SP011 mút ngắn 80-130cm",
+    "gia": 195000,
+    "gia_khuyen_mai": 195000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Xà đơn SP011 mút ngắn 80-130cm, dễ lắp đặt, phù hợp tập kéo xà cơ bản.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp13.xà đơn thường/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp13.xà đơn thường/image copy.png",
+      "../taiNguyen/img/sanpham/sp13.xà đơn thường/image copy 2.png"
+    ],
+    "dac_diem": [
+      "Thanh thép chịu lực, chống gỉ.",
+      "Đệm mút êm tay.",
+      "Đệm cố định bảo vệ khung cửa.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp13.html"
+  },
+  {
+    "id": "sp14-g-y-b-c-tay-sp095-30kg",
+    "ten": "Gậy bẻ cơ tay SP095 - 30kg",
+    "gia": 261200,
+    "gia_khuyen_mai": 261200,
+    "badge": null,
+    "category": "phu-kien",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Gậy bẻ cơ tay SP095 cho lực đàn hồi 30kg, giúp tăng cường cơ tay, vai, ngực.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp14.Gậy bẻ lò xo/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp14.Gậy bẻ lò xo/image copy.png",
+      "../taiNguyen/img/sanpham/sp14.Gậy bẻ lò xo/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp14.Gậy bẻ lò xo/image copy 3.png",
+      "../taiNguyen/img/sanpham/sp14.Gậy bẻ lò xo/image copy 4.png"
+    ],
+    "dac_diem": [
+      "Lò xo thép chịu lực.",
+      "Tay cầm bọc cao su chống trượt.",
+      "Nhỏ gọn, dễ mang theo.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp14.html"
+  },
+  {
+    "id": "sp15-d-y-nh-y-l-i-th-p-c-t-sp003-en",
+    "ten": "Dây nhảy lõi thép có tạ SP003 - đen/đen",
+    "gia": 99000,
+    "gia_khuyen_mai": 99000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Dây nhảy lõi thép SP003 kèm tạ nhỏ, giúp tăng hiệu quả cardio, đốt mỡ nhanh.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp15.Dây nhảy tập thể dục/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp15.Dây nhảy tập thể dục/image copy.png",
+      "../taiNguyen/img/sanpham/sp15.Dây nhảy tập thể dục/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp15.Dây nhảy tập thể dục/image copy 3.png",
+      "../taiNguyen/img/sanpham/sp15.Dây nhảy tập thể dục/image copy 4.png",
+      "../taiNguyen/img/sanpham/sp15.Dây nhảy tập thể dục/image copy 5.png"
+    ],
+    "dac_diem": [
+      "Lõi thép bọc PVC, xoay mượt.",
+      "Tay cầm có tạ, tăng lực cổ tay.",
+      "Dễ điều chỉnh chiều dài.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp15.html"
+  },
+  {
+    "id": "sp16-d-y-kh-ng-l-c-mini-band-sp001-",
+    "ten": "Dây kháng lực mini band SP001 - xanh lá",
+    "gia": 290000,
+    "gia_khuyen_mai": 290000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Dây kháng lực mini band màu xanh lá, độ kháng cao, phù hợp bài tập mông – đùi – vai.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp16.Dây kháng lực mini band STT15/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp16.Dây kháng lực mini band STT15/image copy.png",
+      "../taiNguyen/img/sanpham/sp16.Dây kháng lực mini band STT15/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp16.Dây kháng lực mini band STT15/image copy 3.png"
+    ],
+    "dac_diem": [
+      "Chất liệu cao su đàn hồi siêu bền.",
+      "Không trượt, không cuộn trong quá trình tập.",
+      "Gọn nhẹ, mang theo mọi nơi.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp16.html"
+  },
+  {
+    "id": "sp17-d-ng-c-t-p-b-ng-2-h-t-c-m-sp15",
+    "ten": "Dụng cụ tập bụng 2 đế hút có đệm SP155",
+    "gia": 350000,
+    "gia_khuyen_mai": 350000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Dụng cụ tập bụng đế hút giúp cố định chân, hỗ trợ gập bụng, plank hiệu quả.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp17.Dụng cụ tập bụng có đệm STT17/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp17.Dụng cụ tập bụng có đệm STT17/image copy.png",
+      "../taiNguyen/img/sanpham/sp17.Dụng cụ tập bụng có đệm STT17/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp17.Dụng cụ tập bụng có đệm STT17/image copy 3.png"
+    ],
+    "dac_diem": [
+      "Đế hút chân không bám chắc sàn.",
+      "Đệm mút êm, bảo vệ cổ chân.",
+      "Đi kèm dây kéo hỗ trợ tập tay vai.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp17.html"
+  },
+  {
+    "id": "sp20-ch-eo-tay-1-5kg-t-d-n-c-l-t-m-",
+    "ten": "Chì đeo tay 1.5kg (tạ dán có lót mút êm)",
+    "gia": 240000,
+    "gia_khuyen_mai": 240000,
+    "badge": null,
+    "category": "phu-kien",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Chì đeo tay dạng tạ dán có lót mút êm, phù hợp tăng tải cho các bài tập tay, vai và thân trên.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp20.tạ đeo tay kiểu mới bufalo/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp20.tạ đeo tay kiểu mới bufalo/image copy.png",
+      "../taiNguyen/img/sanpham/sp20.tạ đeo tay kiểu mới bufalo/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp20.tạ đeo tay kiểu mới bufalo/image copy 3.png"
+    ],
+    "dac_diem": [
+      "Trọng lượng 1.5kg, dạng cục dễ đeo ở tay hoặc chân.",
+      "Lót mút êm, hạn chế cấn đau khi tập lâu.",
+      "Dây dán chắc chắn, phù hợp nhiều kích cỡ tay/chân.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp20.html"
+  },
+  {
+    "id": "sp21--o-t-mang-ng-i-t-p-th-l-c-5kg",
+    "ten": "Áo tạ mang người tập thể lực 5kg",
+    "gia": 799000,
+    "gia_khuyen_mai": 799000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Áo tạ mang người 5kg giúp tăng tải toàn thân, phù hợp tập sức bền, crossfit hoặc luyện thi đấu.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp21.áp tạ mang người tập thể lực/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp21.áp tạ mang người tập thể lực/image copy.png",
+      "../taiNguyen/img/sanpham/sp21.áp tạ mang người tập thể lực/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp21.áp tạ mang người tập thể lực/image copy 3.png"
+    ],
+    "dac_diem": [
+      "Trọng lượng 5kg phân bố đều quanh thân.",
+      "Quai dán chắc chắn, phù hợp nhiều cỡ người.",
+      "Chất liệu vải thoáng khí, dễ vệ sinh.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp21.html"
+  },
+  {
+    "id": "sp22-t-eo-tay-buffalo-2kg",
+    "ten": "Tạ đeo tay BUFFALO 2kg",
+    "gia": 290000,
+    "gia_khuyen_mai": 290000,
+    "badge": null,
+    "category": "ta-don",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Tạ đeo tay BUFFALO giúp tăng tải khi chạy bộ, boxing, tập phục hồi.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp20.tạ đeo tay kiểu mới bufalo/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp20.tạ đeo tay kiểu mới bufalo/image copy.png",
+      "../taiNguyen/img/sanpham/sp20.tạ đeo tay kiểu mới bufalo/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp20.tạ đeo tay kiểu mới bufalo/image copy 3.png",
+      "../taiNguyen/img/sanpham/sp20.tạ đeo tay kiểu mới bufalo/image copy 4.png"
+    ],
+    "dac_diem": [
+      "Dây dán chống tuột, ôm tay chắc chắn.",
+      "Lớp lót mềm, thoáng khí.",
+      "Tăng lực cổ tay, tay trước.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp22.html"
+  },
+  {
+    "id": "sp23-ch-eo-ch-n-2kg-th-p-mi-ng",
+    "ten": "Chì đeo chân ~2kg - Thép Miếng",
+    "gia": 270000,
+    "gia_khuyen_mai": 270000,
+    "badge": null,
+    "category": "phu-kien",
+    "brand": "MENXPORT",
+    "tags": [],
+    "mo_ta_ngan": "Chì đeo chân ~2kg bằng thép miếng, giúp tăng tải cho các bài tập chân, phù hợp luyện thể lực và phục hồi.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp23.chì đeo tay, võ chì tay chân/image.png",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp23.chì đeo tay, võ chì tay chân/image copy.png",
+      "../taiNguyen/img/sanpham/sp23.chì đeo tay, võ chì tay chân/image copy 2.png",
+      "../taiNguyen/img/sanpham/sp23.chì đeo tay, võ chì tay chân/image copy 3.png"
+    ],
+    "dac_diem": [
+      "Thiết kế dạng băng quấn quanh cổ chân, chắc chắn.",
+      "Lõi thép miếng, phân bổ đều quanh cổ chân, hạn chế cấn.",
+      "Dây dán chắc, phù hợp nhiều cỡ chân.",
+      "<strong>Miễn phí vận chuyển:</strong> Đơn hàng từ 2.000.000₫",
+      "<strong>Lắp đặt:</strong> Miễn phí lắp đặt tận nơi trong vòng 24h tại Hà Nội"
+    ],
+    "detail_page": "chitietsp/sp23.html"
+  }
+]

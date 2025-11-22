@@ -1,0 +1,181 @@
+[
+  {
+    "id": "bo-ta-8-canh-dks",
+    "ten": "Bộ Tạ 8 Cạnh DKS 20KG",
+    "gia": 1650000,
+    "gia_khuyen_mai": 1350000,
+    "badge": "-18%",
+    "category": "banh-ta",
+    "brand": "Menxport Labs",
+    "tags": ["best-seller", "flash-sale"],
+    "mo_ta_ngan": "Miếng tạ 8 cạnh phủ cao su giảm ồn, chuẩn đường kính 50mm, phù hợp mọi không gian homegym.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/1.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/2.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/3.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/4.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/5.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/6.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/7.webp"
+    ],
+    "dac_diem": [
+      "Lõi gang đúc nguyên khối phủ cao su chống xước sàn",
+      "Thiết kế 8 cạnh chống lăn, dễ xếp chồng",
+      "Đi kèm khóa thép mạ chrome Menxport"
+    ],
+    "detail_page": "chitietsp/sp1.html"
+  },
+  {
+    "id": "combo-plate-40kg-mx",
+    "ten": "Combo Plate Menxport 40KG",
+    "gia": 2950000,
+    "gia_khuyen_mai": 2550000,
+    "badge": "-14%",
+    "category": "combo",
+    "brand": "Menxport Pro",
+    "tags": ["combo", "best-seller"],
+    "mo_ta_ngan": "Gói 40KG gồm miếng tạ 8 cạnh, khóa lò xo và túi đựng, lắp đặt tại nhà trong 30 phút.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/4.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/5.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/6.webp",
+      "../taiNguyen/img/sanpham/sp1.7.Bộ tạ (8 cạnh)/7.webp"
+    ],
+    "dac_diem": [
+      "Trọng lượng phân bố từ 1.25KG đến 10KG",
+      "Khóa chốt xoắn an toàn, chịu tải 300KG",
+      "Tặng kèm hướng dẫn setup homegym PDF"
+    ]
+  },
+  {
+    "id": "thanh-don-35cm-mx",
+    "ten": "Thanh Đòn Cầm Tay MX 35cm",
+    "gia": 450000,
+    "gia_khuyen_mai": 390000,
+    "badge": "-13%",
+    "category": "ta-don",
+    "brand": "Menxport Steel",
+    "tags": ["new"],
+    "mo_ta_ngan": "Thanh đòn mini 35cm, tay cầm khía kim cương chống trượt, tương thích đĩa tạ phi 27.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/1.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/2.jpg",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/3.webp",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/4.webp",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/5.jpg",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/6.webp",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/7.webp",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/8.webp",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/9.webp"
+    ],
+    "dac_diem": [
+      "Thép đặc mạ chrome bóng, chịu tải 120KG",
+      "Đầu ren chuẩn phi 27, kèm khóa bướm",
+      "Phù hợp các bài tập tay trước – tay sau tại nhà"
+    ],
+    "detail_page": "chitietsp/sp2.html"
+  },
+  {
+    "id": "combo-don-tay-quickfit",
+    "ten": "Combo Đòn Tay QuickFit 15KG",
+    "gia": 990000,
+    "gia_khuyen_mai": 850000,
+    "badge": "-14%",
+    "category": "combo",
+    "brand": "Menxport Starter",
+    "tags": ["combo", "starter"],
+    "mo_ta_ngan": "Combo gồm 2 thanh đòn 35cm và bộ đĩa tạ nhỏ gọn, đủ bài tập tay – vai cho người mới.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/4.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/5.jpg",
+      "../taiNguyen/img/sanpham/sp2.Thanh đòn cầm tay 35cm/6.webp"
+    ],
+    "dac_diem": [
+      "Chia trọng lượng linh hoạt 1.25KG / 2.5KG",
+      "Tay cầm phủ cao su êm, dễ vệ sinh",
+      "Tặng bảng giáo án Menxport QuickFit 4 tuần"
+    ]
+  },
+  {
+    "id": "kep-bop-tay-thep-pro",
+    "ten": "Kẹp Bóp Tay Thép Pro 70lbs",
+    "gia": 320000,
+    "gia_khuyen_mai": 260000,
+    "badge": "-19%",
+    "category": "phu-kien",
+    "brand": "Menxport Gear",
+    "tags": ["flash-sale"],
+    "mo_ta_ngan": "Kẹp bóp tay lò xo thép, tăng lực nắm và sức bền cẳng tay cho vận động viên.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/1.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/2.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/3.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/4.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/5.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/6.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/7.webp",
+      "../taiNguyen/img/sanpham/sp3.15.Dụng cụ tập tay/8.webp"
+    ],
+    "dac_diem": [
+      "Điều chỉnh lực 20–70lbs",
+      "Tay cầm bọc cao su chống trượt",
+      "Kích thước bỏ túi mang đi mọi nơi"
+    ],
+    "detail_page": "chitietsp/sp3.html"
+  },
+  {
+    "id": "gay-bong-chay-hop-kim-mx",
+    "ten": "Gậy Bóng Chày Hợp Kim MX 28\"",
+    "gia": 890000,
+    "gia_khuyen_mai": 760000,
+    "badge": "-15%",
+    "category": "phu-kien",
+    "brand": "Menxport Combat",
+    "tags": ["hot"],
+    "mo_ta_ngan": "Gậy hợp kim sắt sơn tĩnh điện, dùng cho luyện tập phản xạ và tự vệ.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt/1.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt/2.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt/3.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt/4.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt/5.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt/6.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt/7.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt/8.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt/9.webp",
+      "../taiNguyen/img/sanpham/sp4.23.Gậy bóng chày hợp kim sắt/10.webp"
+    ],
+    "dac_diem": [
+      "Trọng lượng cân bằng, dễ xoay trở",
+      "Lớp sơn chống trầy, không bong",
+      "Tay cầm quấn da tổng hợp êm ái"
+    ],
+    "detail_page": "chitietsp/sp4.html"
+  },
+  {
+    "id": "tui-deo-hong-the-thao-mx",
+    "ten": "Túi Đeo Hông Thể Thao MX",
+    "gia": 420000,
+    "gia_khuyen_mai": 360000,
+    "badge": "-14%",
+    "category": "phu-kien",
+    "brand": "Menxport Apparel",
+    "tags": ["best-seller"],
+    "mo_ta_ngan": "Túi đeo hông chống nước, đủ chỗ cho điện thoại, bình điện giải và phụ kiện nhỏ.",
+    "hinh_anh_chinh": "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/1.webp",
+    "hinh_anh_phu": [
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/2.webp",
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/3.webp",
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/4.webp",
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/5.webp",
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/6.webp",
+      "../taiNguyen/img/sanpham/sp5.19.Túi đeo hông thể thao/7.webp"
+    ],
+    "dac_diem": [
+      "Chất liệu Oxford chống thấm",
+      "Khóa kéo YKK bền bỉ",
+      "Có ngăn riêng cho bình VNPAY QR"
+    ],
+    "detail_page": "chitietsp/sp5.html"
+  }
+]

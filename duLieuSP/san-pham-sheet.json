@@ -1,0 +1,677 @@
+[
+  {
+    "id": "0-6kg-0-3-2-en-ta-quan-tap-tay-oi",
+    "ten_nhom": "Tạ đeo chân tay mạt sắt",
+    "ten": "0.6kg (0.3*2) - đen - Tạ quấn tập tay ĐÔI",
+    "phan_loai": "BỘ",
+    "gia": 244000,
+    "gia_si": 44000,
+    "ton_kho": 50
+  },
+  {
+    "id": "3kg-1-5-2-en-ta-quan-tap-tay-oi",
+    "ten_nhom": "Tạ đeo chân tay mạt sắt",
+    "ten": "3kg (1,5*2) - đen - Tạ quấn tập tay ĐÔI",
+    "phan_loai": "BỘ",
+    "gia": 328000,
+    "gia_si": 115000,
+    "ton_kho": 340
+  },
+  {
+    "id": "4kg-2-2-en-ta-quan-tap-tay-oi",
+    "ten_nhom": "Tạ đeo chân tay mạt sắt",
+    "ten": "4kg (2*2) - đen - Tạ quấn tập tay ĐÔI",
+    "phan_loai": "BỘ",
+    "gia": 390000,
+    "gia_si": 140000,
+    "ton_kho": 58
+  },
+  {
+    "id": "sp124",
+    "ten_nhom": "Bộ tạ (chất liệu sắt mạ điện)",
+    "ten": "SP124 - 15kg - Bộ tạ (chất liệu sắt mạ điện)",
+    "phan_loai": "BỘ",
+    "gia": 1279000,
+    "gia_si": 710000,
+    "ton_kho": 107
+  },
+  {
+    "id": "sp124",
+    "ten_nhom": "Bộ tạ (chất liệu sắt mạ điện)",
+    "ten": "SP124 - 20kg - Bộ tạ (chất liệu sắt mạ điện)",
+    "phan_loai": "BỘ",
+    "gia": 1530000,
+    "gia_si": 830000,
+    "ton_kho": 110
+  },
+  {
+    "id": "sp124",
+    "ten_nhom": "Bộ tạ (chất liệu sắt mạ điện)",
+    "ten": "SP124 - 30kg - Bộ tạ (chất liệu sắt mạ điện)",
+    "phan_loai": "BỘ",
+    "gia": 1870000,
+    "gia_si": 1140000,
+    "ton_kho": 134
+  },
+  {
+    "id": "sp124",
+    "ten_nhom": "Bộ tạ (chất liệu sắt mạ điện)",
+    "ten": "SP124 - 40kg - Bộ tạ (chất liệu sắt mạ điện)",
+    "phan_loai": "BỘ",
+    "gia": 2490000,
+    "gia_si": 1440000,
+    "ton_kho": 30
+  },
+  {
+    "id": "sp124",
+    "ten_nhom": "Bộ tạ (chất liệu sắt mạ điện)",
+    "ten": "SP124 - 50kg - Bộ tạ (chất liệu sắt mạ điện)",
+    "phan_loai": "BỘ",
+    "gia": 2790000,
+    "gia_si": 1740000,
+    "ton_kho": 19
+  },
+  {
+    "id": "sp131",
+    "ten_nhom": "Bộ tạ (8 cạnh)",
+    "ten": "SP131 - 10kg - Bộ tạ (8 cạnh)",
+    "phan_loai": "BỘ",
+    "gia": 450000,
+    "gia_si": 230000,
+    "ton_kho": 45
+  },
+  {
+    "id": "sp131",
+    "ten_nhom": "Bộ tạ (8 cạnh)",
+    "ten": "SP131 - 20kg - Bộ tạ (8 cạnh)",
+    "phan_loai": "BỘ",
+    "gia": 790000,
+    "gia_si": 330000,
+    "ton_kho": 40
+  },
+  {
+    "id": "sp131",
+    "ten_nhom": "Bộ tạ (8 cạnh)",
+    "ten": "SP131 - 30kg - Bộ tạ (8 cạnh)",
+    "phan_loai": "BỘ",
+    "gia": 990000,
+    "gia_si": 430000,
+    "ton_kho": 38
+  },
+  {
+    "id": "sp122",
+    "ten_nhom": "Bộ tạ (12 cạnh)",
+    "ten": "SP122 - 10kg - Bộ tạ (12 cạnh)",
+    "phan_loai": "BỘ",
+    "gia": 690000,
+    "gia_si": 230000,
+    "ton_kho": 80
+  },
+  {
+    "id": "sp122",
+    "ten_nhom": "Bộ tạ (12 cạnh)",
+    "ten": "SP122 - 20kg - Bộ tạ (12 cạnh)",
+    "phan_loai": "BỘ",
+    "gia": 793000,
+    "gia_si": 350000,
+    "ton_kho": 0
+  },
+  {
+    "id": "sp122",
+    "ten_nhom": "Bộ tạ (12 cạnh)",
+    "ten": "SP122 - 30kg - Bộ tạ (12 cạnh)",
+    "phan_loai": "BỘ",
+    "gia": 990000,
+    "gia_si": 456000,
+    "ton_kho": 5
+  },
+  {
+    "id": "sp122",
+    "ten_nhom": "Bộ tạ (12 cạnh)",
+    "ten": "SP122 - 40kg - Bộ tạ (12 cạnh)",
+    "phan_loai": "BỘ",
+    "gia": 1350000,
+    "gia_si": 540000,
+    "ton_kho": 5
+  },
+  {
+    "id": "sp008",
+    "ten_nhom": "Xà đơn chống xoay",
+    "ten": "SP008 72-110cm xà đơn treo tường cao cấp chống xoay",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 335000,
+    "gia_si": 165000,
+    "ton_kho": 300
+  },
+  {
+    "id": "sp008",
+    "ten_nhom": "Xà đơn chống xoay",
+    "ten": "SP008 93-140cm xà đơn treo tường cao cấp chống xoay",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 390000,
+    "gia_si": 185000,
+    "ton_kho": 200
+  },
+  {
+    "id": "sp011",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP011 - mút ngắn ( 80 -130cm) - Xà đơn treo tường gắn cửa độ dài tùy chỉnh",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 195000,
+    "gia_si": 83000,
+    "ton_kho": 140
+  },
+  {
+    "id": "sp011",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP011 - mút ngắn (60-100cm) - Xà đơn treo tường gắn cửa độ dài tùy chỉnh",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 175000,
+    "gia_si": 70000,
+    "ton_kho": 175
+  },
+  {
+    "id": "sp011",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP011 - mút dài (60-100cm) - Xà đơn treo tường new 2016",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 235000,
+    "gia_si": 75000,
+    "ton_kho": 700
+  },
+  {
+    "id": "sp011",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP011 - mút dài (80-130cm) - Xà đơn treo tường new 2016",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 220000,
+    "gia_si": 87000,
+    "ton_kho": 700
+  },
+  {
+    "id": "sp062",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP062 - x.dương - 0.5kg - tạ sắt bọc cao su",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 271000,
+    "gia_si": 21000,
+    "ton_kho": 279
+  },
+  {
+    "id": "sp062",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP062 - x.dương - 1kg - tạ sắt bọc cao su",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 305000,
+    "gia_si": 35000,
+    "ton_kho": 39
+  },
+  {
+    "id": "sp062",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP062 - x.dương - 2kg - tạ sắt bọc cao su",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 330000,
+    "gia_si": 70000,
+    "ton_kho": 98
+  },
+  {
+    "id": "sp062",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP062 - x.dương - 3kg - tạ sắt bọc cao su",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 385000,
+    "gia_si": 105000,
+    "ton_kho": 8
+  },
+  {
+    "id": "sp062",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP062 - x.dương - 4kg - tạ sắt bọc cao su",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 410000,
+    "gia_si": 140000,
+    "ton_kho": 80
+  },
+  {
+    "id": "sp062",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP062 - x.dương - 5kg - tạ sắt bọc cao su",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 465000,
+    "gia_si": 175000,
+    "ton_kho": 15
+  },
+  {
+    "id": "sp095",
+    "ten_nhom": "Xà đơn thường",
+    "ten": "SP095 - 30kg - đen - Gậy bẻ cơ tay - NEW",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 261200,
+    "gia_si": 11200,
+    "ton_kho": 1700
+  },
+  {
+    "id": "sp074",
+    "ten_nhom": "Thanh đòn cầm tay 35cm",
+    "ten": "SP074 - xanh trắng - Tạ đòn cầm tay 35cm",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 190000,
+    "gia_si": 63000,
+    "ton_kho": 140
+  },
+  {
+    "id": "sp091",
+    "ten_nhom": "Dụng cụ tập tay",
+    "ten": "SP091 - đen - Dụng cụ tập tay",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 190000,
+    "gia_si": 34500,
+    "ton_kho": 335
+  },
+  {
+    "id": "sp104",
+    "ten_nhom": "Tạ ấm đen",
+    "ten": "SP104 - 2kg - Tạ ấm đen",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 343000,
+    "gia_si": 43000,
+    "ton_kho": 99
+  },
+  {
+    "id": "sp104",
+    "ten_nhom": "Tạ ấm đen",
+    "ten": "SP104 - 4kg - Tạ ấm đen",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 430000,
+    "gia_si": 85000,
+    "ton_kho": 476
+  },
+  {
+    "id": "sp104",
+    "ten_nhom": "Tạ ấm đen",
+    "ten": "SP104 - 6kg - Tạ ấm đen",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 470000,
+    "gia_si": 130000,
+    "ton_kho": 109
+  },
+  {
+    "id": "sp104",
+    "ten_nhom": "Tạ ấm đen",
+    "ten": "SP104 - 8kg - Tạ ấm đen",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 510000,
+    "gia_si": 170000,
+    "ton_kho": 61
+  },
+  {
+    "id": "sp104",
+    "ten_nhom": "Tạ ấm đen",
+    "ten": "SP104 - 10kg - Tạ ấm đen",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 558000,
+    "gia_si": 210000,
+    "ton_kho": 29
+  },
+  {
+    "id": "sp104",
+    "ten_nhom": "Tạ ấm đen",
+    "ten": "SP104 - 12kg - Tạ ấm đen",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 690000,
+    "gia_si": 258000,
+    "ton_kho": 131
+  },
+  {
+    "id": "sp028",
+    "ten_nhom": "Lều picnic dã ngoại du lịch",
+    "ten": "SP028-xanh dương-Lều picnic dã ngoại du lịch đi phượt cỡ lớn size đủ cho 3-4 người (200*200*145cm)",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 930000,
+    "gia_si": 350000,
+    "ton_kho": 75
+  },
+  {
+    "id": "sp041",
+    "ten_nhom": "Túi đeo hông thể thao",
+    "ten": "SP041- Túi đeo hông thể thao-cam",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 99000,
+    "gia_si": 14500,
+    "ton_kho": 873
+  },
+  {
+    "id": "sp041",
+    "ten_nhom": "Túi đeo hông thể thao",
+    "ten": "SP041- Túi đeo hông thể thao-hồng",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 99000,
+    "gia_si": 14500,
+    "ton_kho": 690
+  },
+  {
+    "id": "sp041",
+    "ten_nhom": "Túi đeo hông thể thao",
+    "ten": "SP041- Túi đeo hông thể thao-xanh dương",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 99000,
+    "gia_si": 14500,
+    "ton_kho": 400
+  },
+  {
+    "id": "sp041",
+    "ten_nhom": "Túi đeo hông thể thao",
+    "ten": "SP041- Túi đeo hông thể thao-xanh lá",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 99000,
+    "gia_si": 14500,
+    "ton_kho": 766
+  },
+  {
+    "id": "sp003",
+    "ten_nhom": "Dây nhảy tập thể dục thể thao dây lõi thép",
+    "ten": "SP003-có tạ-đen đen-Dây nhảy tập thể dục thể thao dây lõi thép",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 99000,
+    "gia_si": 17500,
+    "ton_kho": 1580
+  },
+  {
+    "id": "sp003",
+    "ten_nhom": "Dây nhảy tập thể dục thể thao dây lõi thép",
+    "ten": "SP003-có tạ-đen đỏ-Dây nhảy tập thể dục thể thao dây lõi thép",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 99000,
+    "gia_si": 17500,
+    "ton_kho": 1200
+  },
+  {
+    "id": "sp003",
+    "ten_nhom": "Dây nhảy tập thể dục thể thao dây lõi thép",
+    "ten": "SP003-có tạ-đen xanh lá-Dây nhảy tập thể dục thể thao dây lõi thép",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 99000,
+    "gia_si": 17500,
+    "ton_kho": 570
+  },
+  {
+    "id": "sp003",
+    "ten_nhom": "Dây nhảy tập thể dục thể thao dây lõi thép",
+    "ten": "SP003-có tạ-đen xanh dương-Dây nhảy tập thể dục thể thao dây lõi thép",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 99000,
+    "gia_si": 17500,
+    "ton_kho": 1188
+  },
+  {
+    "id": "sp001",
+    "ten_nhom": "Dây kháng lực,dây mini band Tymtym siêu bền , siêu dày",
+    "ten": "SP001 - xanh lá - trơn - Dây kháng lực",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 290000,
+    "gia_si": 41000,
+    "ton_kho": 1360
+  },
+  {
+    "id": "sp001",
+    "ten_nhom": "Dây kháng lực,dây mini band Tymtym siêu bền , siêu dày",
+    "ten": "SP001 - tím - trơn - Dây kháng lực",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 260000,
+    "gia_si": 32000,
+    "ton_kho": 3000
+  },
+  {
+    "id": "sp001",
+    "ten_nhom": "Dây kháng lực,dây mini band Tymtym siêu bền , siêu dày",
+    "ten": "SP001 - đen - trơn - Dây kháng lực",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 190000,
+    "gia_si": 21000,
+    "ton_kho": 1600
+  },
+  {
+    "id": "sp001",
+    "ten_nhom": "Dây kháng lực,dây mini band Tymtym siêu bền , siêu dày",
+    "ten": "SP001 - đỏ - trơn - Dây kháng lực",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 150000,
+    "gia_si": 13500,
+    "ton_kho": 375
+  },
+  {
+    "id": "sp001",
+    "ten_nhom": "Dây kháng lực,dây mini band Tymtym siêu bền , siêu dày",
+    "ten": "SP001 - vàng - trơn - Dây kháng lực",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 99000,
+    "gia_si": 7500,
+    "ton_kho": 300
+  },
+  {
+    "id": "sp023",
+    "ten_nhom": "Gậy bóng chày hợp kim sắt",
+    "ten": "SP023-Gậy bóng chày hợp kim sắt - bạc",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 290000,
+    "gia_si": 53000,
+    "ton_kho": 170
+  },
+  {
+    "id": "sp023",
+    "ten_nhom": "Gậy bóng chày hợp kim sắt",
+    "ten": "SP023-Gậy bóng chày hợp kim sắt - đỏ",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 290000,
+    "gia_si": 53000,
+    "ton_kho": 500
+  },
+  {
+    "id": "sp023",
+    "ten_nhom": "Gậy bóng chày hợp kim sắt",
+    "ten": "SP023-túi đựng gậy bóng chày",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 90000,
+    "gia_si": 5000,
+    "ton_kho": 8
+  },
+  {
+    "id": "sp023",
+    "ten_nhom": "Gậy bóng chày hợp kim sắt",
+    "ten": "SP023-Gậy bóng chày hợp kim sắt - đen",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 290000,
+    "gia_si": 53000,
+    "ton_kho": 500
+  },
+  {
+    "id": "sp155",
+    "ten_nhom": "DỤNG CỤ TẬP BỤNG CÓ ĐỆM KÈM DÂY KÉO",
+    "ten": "SP155 - ghi - DỤNG CỤ TẬP BỤNG 2 ĐẾ HÚT CÓ ĐỆM KÈM DÂY KÉO",
+    "phan_loai": "Lẻ 1 SP",
+    "gia": 350000,
+    "gia_si": 70000,
+    "ton_kho": 1020
+  },
+  {
+    "id": "buffalo",
+    "ten_nhom": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO",
+    "ten": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO 2Kg",
+    "phan_loai": "Cái",
+    "gia": 379000,
+    "gia_si": 190000,
+    "ton_kho": null
+  },
+  {
+    "id": "buffalo",
+    "ten_nhom": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO",
+    "ten": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO 3Kg",
+    "phan_loai": null,
+    "gia": 449000,
+    "gia_si": 220000,
+    "ton_kho": null
+  },
+  {
+    "id": "buffalo",
+    "ten_nhom": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO",
+    "ten": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO 4Kg",
+    "phan_loai": null,
+    "gia": 479000,
+    "gia_si": 260000,
+    "ton_kho": null
+  },
+  {
+    "id": "buffalo",
+    "ten_nhom": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO",
+    "ten": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO 5Kg",
+    "phan_loai": null,
+    "gia": 549000,
+    "gia_si": 300000,
+    "ton_kho": null
+  },
+  {
+    "id": "buffalo",
+    "ten_nhom": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO",
+    "ten": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO 6Kg",
+    "phan_loai": null,
+    "gia": 579000,
+    "gia_si": 340000,
+    "ton_kho": null
+  },
+  {
+    "id": "buffalo",
+    "ten_nhom": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO",
+    "ten": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO 8Kg",
+    "phan_loai": null,
+    "gia": 779000,
+    "gia_si": 450000,
+    "ton_kho": null
+  },
+  {
+    "id": "buffalo",
+    "ten_nhom": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO",
+    "ten": "Tạ Đeo Chân Mẩu Mới Chống Tuột BUFFALO 10Kg",
+    "phan_loai": null,
+    "gia": 839000,
+    "gia_si": 510000,
+    "ton_kho": null
+  },
+  {
+    "id": "tay",
+    "ten_nhom": "Tạ Đeo TAY Mẩu Mới Chống Tuột BUFFALO",
+    "ten": "Tạ Đeo TAY Mẩu Mới Chống Tuột BUFFALO 2Kg",
+    "phan_loai": "Cái",
+    "gia": 290000,
+    "gia_si": 180000,
+    "ton_kho": null
+  },
+  {
+    "id": "tay",
+    "ten_nhom": "Tạ Đeo TAY Mẩu Mới Chống Tuột BUFFALO",
+    "ten": "Tạ Đeo TAY Mẩu Mới Chống Tuột BUFFALO 3Kg",
+    "phan_loai": null,
+    "gia": 350000,
+    "gia_si": 210000,
+    "ton_kho": null
+  },
+  {
+    "id": "tay",
+    "ten_nhom": "Tạ Đeo TAY Mẩu Mới Chống Tuột BUFFALO",
+    "ten": "Tạ Đeo TAY Mẩu Mới Chống Tuột BUFFALO 4Kg",
+    "phan_loai": null,
+    "gia": 399000,
+    "gia_si": 250000,
+    "ton_kho": null
+  },
+  {
+    "id": "mang",
+    "ten_nhom": "ÁO TẠ MANG NGƯỜI TẬP THỂ LỰC",
+    "ten": "ÁO TẠ MANG NGƯỜI TẬP THỂ LỰC 5KG",
+    "phan_loai": "Cái",
+    "gia": 799000,
+    "gia_si": 490000,
+    "ton_kho": null
+  },
+  {
+    "id": "mang",
+    "ten_nhom": "ÁO TẠ MANG NGƯỜI TẬP THỂ LỰC",
+    "ten": "ÁO TẠ MANG NGƯỜI TẬP THỂ LỰC 10KG",
+    "phan_loai": null,
+    "gia": 999000,
+    "gia_si": 650000,
+    "ton_kho": null
+  },
+  {
+    "id": "mang",
+    "ten_nhom": "ÁO TẠ MANG NGƯỜI TẬP THỂ LỰC",
+    "ten": "ÁO TẠ MANG NGƯỜI TẬP THỂ LỰC 15KG",
+    "phan_loai": null,
+    "gia": 1399000,
+    "gia_si": 790000,
+    "ton_kho": null
+  },
+  {
+    "id": "mang",
+    "ten_nhom": "ÁO TẠ MANG NGƯỜI TẬP THỂ LỰC",
+    "ten": "ÁO TẠ MANG NGƯỜI TẬP THỂ LỰC 20KG",
+    "phan_loai": null,
+    "gia": 1799000,
+    "gia_si": 940000,
+    "ton_kho": null
+  },
+  {
+    "id": "chi-eo-chan-2kg-thep-mieng",
+    "ten_nhom": "Chì đeo chân",
+    "ten": "Chì Đeo Chân ~2kg - Thép Miếng",
+    "phan_loai": "Cái",
+    "gia": 270000,
+    "gia_si": 100000,
+    "ton_kho": null
+  },
+  {
+    "id": "chi-eo-chan-3kg-thep-mieng",
+    "ten_nhom": "Chì đeo chân",
+    "ten": "Chì Đeo Chân 3kg - Thép Miếng",
+    "phan_loai": null,
+    "gia": 290000,
+    "gia_si": 140000,
+    "ton_kho": null
+  },
+  {
+    "id": "chi-eo-chan-4kg-thep-mieng",
+    "ten_nhom": "Chì đeo chân",
+    "ten": "Chì Đeo Chân 4kg - Thép Miếng",
+    "phan_loai": null,
+    "gia": 350000,
+    "gia_si": 180000,
+    "ton_kho": null
+  },
+  {
+    "id": "chi-eo-tay-1-5kg-ta-dan-eo-chan-co-lot-mut-em",
+    "ten_nhom": "Chì đeo tay, Vỏ chì chân - tay",
+    "ten": "Chì đeo tay 1.5kg (tạ dán đeo chân có lót mút êm)",
+    "phan_loai": "Cục",
+    "gia": 240000,
+    "gia_si": 90000,
+    "ton_kho": null
+  },
+  {
+    "id": "chi-eo-tay-2kg-ta-dan-eo-chan-co-lot-mut-em",
+    "ten_nhom": "Chì đeo tay, Vỏ chì chân - tay",
+    "ten": "Chì đeo tay ~ 2kg (tạ dán đeo chân có lót mút êm)",
+    "phan_loai": null,
+    "gia": 280000,
+    "gia_si": 130000,
+    "ton_kho": null
+  },
+  {
+    "id": "vo-chi-chan-tay-chua-bao-gom-chi",
+    "ten_nhom": "Chì đeo tay, Vỏ chì chân - tay",
+    "ten": "Vỏ Chì Chân - Tay ( chưa bao gồm chì )",
+    "phan_loai": null,
+    "gia": 130000,
+    "gia_si": 50000,
+    "ton_kho": null
+  }
+]
