@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (addToCartBtn) {
         addToCartBtn.addEventListener('click', () => {
             if (!currentProduct) {
-                alert("Không tìm thấy thông tin sản phẩm!");
+                showError("Không tìm thấy thông tin sản phẩm!", 'Lỗi');
                 return;
             }
             const finalPrice = (currentProduct.gia_khuyen_mai && currentProduct.gia_khuyen_mai > 0 && currentProduct.gia_khuyen_mai < currentProduct.gia) 
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (buyNowBtn) {
         buyNowBtn.addEventListener('click', () => {
             if (!currentProduct) {
-                alert("Không tìm thấy thông tin sản phẩm!");
+                showError("Không tìm thấy thông tin sản phẩm!", 'Lỗi');
                 return;
             }
             const finalPrice = (currentProduct.gia_khuyen_mai && currentProduct.gia_khuyen_mai > 0 && currentProduct.gia_khuyen_mai < currentProduct.gia) 

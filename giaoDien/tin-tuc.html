@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../CSS/giao-dien-chinh.css">
+    <link rel="stylesheet" href="../CSS/mobile-responsive.css">
 </head>
 <body class="news-page">
     <div class="utility-strip">
@@ -72,106 +73,337 @@
 
     <main>
         <section class="page-hero container">
-            <div>
-                <p class="eyebrow">Menxport Blog</p>
-                <h1>Tin tức & Kiến thức</h1>
-                <div class="breadcrumb">
-                    <a href="trang-chu.html">Trang chủ</a>
-                    <span>/</span>
-                    <span>Tin tức</span>
+            <div class="hero-content-wrapper">
+                <div class="hero-text-block">
+                    <p class="eyebrow">Menxport Blog</p>
+                    <h1>Tin tức & Kiến thức</h1>
+                    <div class="breadcrumb">
+                        <a href="trang-chu.html">Trang chủ</a>
+                        <span>/</span>
+                        <span>Tin tức</span>
+                    </div>
                 </div>
-            </div>
-            <div class="page-hero-meta">
-                <p>Cập nhật tin tức mới nhất về thể thao, dinh dưỡng và sản phẩm MenXport.</p>
+                <div class="hero-meta-block">
+                    <p class="hero-description">Cập nhật tin tức mới nhất về thể thao, dinh dưỡng và sản phẩm MenXport. Chia sẻ kiến thức, kinh nghiệm và câu chuyện từ cộng đồng.</p>
+                </div>
             </div>
         </section>
 
-        <section class="news-section container">
-            <div class="news-grid">
-                <article class="news-card featured">
+        <section class="news-section">
+            <div class="container section-shell">
+                <div class="news-controls-wrapper">
+                    <div class="news-header-bar">
+                        <div class="news-search-box">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Tìm kiếm bài viết..." id="news-search">
+                        </div>
+                        <div class="news-filters">
+                            <button class="filter-btn active" data-category="all"><i class="fa-solid fa-th"></i> Tất cả</button>
+                            <button class="filter-btn" data-category="review"><i class="fa-solid fa-star"></i> Review</button>
+                            <button class="filter-btn" data-category="health"><i class="fa-solid fa-heart-pulse"></i> Sức khỏe</button>
+                            <button class="filter-btn" data-category="guide"><i class="fa-solid fa-book"></i> Hướng dẫn</button>
+                            <button class="filter-btn" data-category="community"><i class="fa-solid fa-users"></i> Cộng đồng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-layout">
+                    <div class="news-main">
+                        <div class="news-grid">
+                <article class="news-card featured" data-category="review">
                     <div class="news-image">
                         <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=1200&q=80" alt="Bột điện giải">
                         <span class="news-category">Review sản phẩm</span>
+                        <div class="news-overlay"></div>
                     </div>
                     <div class="news-content">
-                        <span class="news-date"><i class="fa-solid fa-calendar"></i> 15/01/2025</span>
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 15/01/2025</span>
+                            <span class="news-author"><i class="fa-solid fa-user"></i> MenXport Team</span>
+                        </div>
                         <h2>Bột điện giải Kamizol – Bí quyết giữ sức bền</h2>
-                        <p>Lý do dân thể thao tin dùng Kamizol cho buổi tập nặng? Chúng tôi giải mã thành phần và cách pha chuẩn để tối ưu hiệu quả tập luyện.</p>
+                        <p>Lý do dân thể thao tin dùng Kamizol cho buổi tập nặng? Chúng tôi giải mã thành phần và cách pha chuẩn để tối ưu hiệu quả tập luyện. Bài viết chi tiết về công dụng, cách sử dụng và so sánh với các sản phẩm khác trên thị trường.</p>
+                        <div class="news-tags">
+                            <span><i class="fa-solid fa-tag"></i> Điện giải</span>
+                            <span><i class="fa-solid fa-tag"></i> Dinh dưỡng</span>
+                            <span><i class="fa-solid fa-tag"></i> Review</span>
+                        </div>
                         <a href="#" class="btn btn-secondary">Đọc tiếp <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
 
-                <article class="news-card">
+                <article class="news-card" data-category="health">
                     <div class="news-image">
                         <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80" alt="Giảm đau cơ">
                         <span class="news-category">Sức khỏe - Thể thao</span>
                     </div>
                     <div class="news-content">
-                        <span class="news-date"><i class="fa-solid fa-calendar"></i> 12/01/2025</span>
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 12/01/2025</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 5 phút đọc</span>
+                        </div>
                         <h3>Đột quỵ khi tập nặng: dấu hiệu cảnh báo</h3>
-                        <p>Nhận diện triệu chứng, thời điểm cần dừng tập và phác đồ hồi phục chuẩn, có lời khuyên từ chuyên gia Menxport.</p>
+                        <p>Nhận diện triệu chứng, thời điểm cần dừng tập và phác đồ hồi phục chuẩn, có lời khuyên từ chuyên gia Menxport. Bài viết cung cấp thông tin quan trọng về an toàn khi tập luyện.</p>
                         <a href="#">Xem chi tiết <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
 
-                <article class="news-card">
+                <article class="news-card" data-category="community">
                     <div class="news-image">
                         <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80" alt="Dinh dưỡng">
                         <span class="news-category">Cộng đồng</span>
                     </div>
                     <div class="news-content">
-                        <span class="news-date"><i class="fa-solid fa-calendar"></i> 10/01/2025</span>
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 10/01/2025</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 7 phút đọc</span>
+                        </div>
                         <h3>Có nên ăn đồ hộp khi siết cân?</h3>
-                        <p>Chúng tôi phân tích thành phần, cách kết hợp protein – carb – fat với đồ hộp giúp tiết kiệm thời gian meal prep.</p>
+                        <p>Chúng tôi phân tích thành phần, cách kết hợp protein – carb – fat với đồ hộp giúp tiết kiệm thời gian meal prep. Bài viết cung cấp thực đơn mẫu và lời khuyên từ chuyên gia dinh dưỡng.</p>
                         <a href="#">Khám phá <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
 
-                <article class="news-card">
+                <article class="news-card" data-category="guide">
                     <div class="news-image">
                         <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" alt="Tập luyện">
                         <span class="news-category">Hướng dẫn</span>
                     </div>
                     <div class="news-content">
-                        <span class="news-date"><i class="fa-solid fa-calendar"></i> 08/01/2025</span>
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 08/01/2025</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 10 phút đọc</span>
+                        </div>
                         <h3>5 bài tập tay hiệu quả với tạ đơn tại nhà</h3>
-                        <p>Hướng dẫn chi tiết các động tác tập tay với tạ đơn, phù hợp cho người mới bắt đầu và muốn tập tại nhà.</p>
+                        <p>Hướng dẫn chi tiết các động tác tập tay với tạ đơn, phù hợp cho người mới bắt đầu và muốn tập tại nhà. Kèm theo video hướng dẫn và lịch tập mẫu.</p>
                         <a href="#">Đọc ngay <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
 
-                <article class="news-card">
+                <article class="news-card" data-category="review">
                     <div class="news-image">
                         <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a52?auto=format&fit=crop&w=800&q=80" alt="Dụng cụ">
-                        <span class="news-category">Sản phẩm</span>
+                        <span class="news-category">Review sản phẩm</span>
                     </div>
                     <div class="news-content">
-                        <span class="news-date"><i class="fa-solid fa-calendar"></i> 05/01/2025</span>
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 05/01/2025</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 8 phút đọc</span>
+                        </div>
                         <h3>Review chi tiết: Bộ Tạ 8 Cạnh DKS 20KG</h3>
-                        <p>Đánh giá thực tế về chất lượng, độ bền và hiệu quả sử dụng của bộ tạ 8 cạnh MenXport sau 3 tháng sử dụng.</p>
+                        <p>Đánh giá thực tế về chất lượng, độ bền và hiệu quả sử dụng của bộ tạ 8 cạnh MenXport sau 3 tháng sử dụng. So sánh với các sản phẩm tương tự trên thị trường.</p>
                         <a href="#">Xem review <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
 
-                <article class="news-card">
+                <article class="news-card" data-category="health">
                     <div class="news-image">
                         <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=80" alt="Boxing">
-                        <span class="news-category">Thể thao</span>
+                        <span class="news-category">Sức khỏe - Thể thao</span>
                     </div>
                     <div class="news-content">
-                        <span class="news-date"><i class="fa-solid fa-calendar"></i> 03/01/2025</span>
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 03/01/2025</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 6 phút đọc</span>
+                        </div>
                         <h3>Lợi ích của boxing cho sức khỏe và tinh thần</h3>
-                        <p>Khám phá những lợi ích tuyệt vời mà boxing mang lại, từ cải thiện thể lực đến giảm stress hiệu quả.</p>
+                        <p>Khám phá những lợi ích tuyệt vời mà boxing mang lại, từ cải thiện thể lực đến giảm stress hiệu quả. Bài viết kèm theo lịch tập boxing cho người mới bắt đầu.</p>
                         <a href="#">Tìm hiểu <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
-            </div>
 
-            <div class="pagination">
-                <button class="pagination-button active">1</button>
-                <button class="pagination-button">2</button>
-                <button class="pagination-button">3</button>
-                <button class="pagination-button">Tiếp theo <i class="fa-solid fa-arrow-right"></i></button>
+                <article class="news-card" data-category="guide">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80" alt="Tập luyện">
+                        <span class="news-category">Hướng dẫn</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 01/01/2025</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 12 phút đọc</span>
+                        </div>
+                        <h3>Lập kế hoạch tập luyện tại nhà hiệu quả</h3>
+                        <p>Hướng dẫn chi tiết cách xây dựng không gian tập luyện tại nhà, lựa chọn thiết bị phù hợp và lập lịch tập khoa học để đạt mục tiêu thể hình.</p>
+                        <a href="#">Xem hướng dẫn <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="health">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80" alt="Dinh dưỡng">
+                        <span class="news-category">Sức khỏe - Thể thao</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 28/12/2024</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 9 phút đọc</span>
+                        </div>
+                        <h3>Protein và vai trò trong phục hồi cơ bắp</h3>
+                        <p>Hiểu rõ về protein, cách bổ sung đúng cách và thời điểm tốt nhất để tối ưu hóa quá trình phục hồi và phát triển cơ bắp sau tập luyện.</p>
+                        <a href="#">Tìm hiểu <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="guide">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80" alt="Tập luyện">
+                        <span class="news-category">Hướng dẫn</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 25/12/2024</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 8 phút đọc</span>
+                        </div>
+                        <h3>Hướng dẫn chọn tạ đơn phù hợp cho người mới</h3>
+                        <p>Làm thế nào để chọn tạ đơn phù hợp với trình độ và mục tiêu tập luyện? Bài viết hướng dẫn chi tiết từ cơ bản đến nâng cao.</p>
+                        <a href="#">Đọc ngay <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="review">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=800&q=80" alt="Sản phẩm">
+                        <span class="news-category">Review sản phẩm</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 22/12/2024</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 7 phút đọc</span>
+                        </div>
+                        <h3>Review: Xà đơn treo tường SP011 - Đáng giá không?</h3>
+                        <p>Đánh giá chi tiết về xà đơn treo tường SP011 sau 6 tháng sử dụng. Ưu nhược điểm, độ bền và giá trị thực tế của sản phẩm.</p>
+                        <a href="#">Xem review <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="health">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80" alt="Tập luyện">
+                        <span class="news-category">Sức khỏe - Thể thao</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 20/12/2024</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 6 phút đọc</span>
+                        </div>
+                        <h3>Lợi ích của việc tập luyện tại nhà</h3>
+                        <p>Khám phá những lợi ích tuyệt vời của việc tập luyện tại nhà: tiết kiệm thời gian, chi phí và đạt hiệu quả cao với thiết bị phù hợp.</p>
+                        <a href="#">Khám phá <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="guide">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80" alt="Tập luyện">
+                        <span class="news-category">Hướng dẫn</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 18/12/2024</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 11 phút đọc</span>
+                        </div>
+                        <h3>Chương trình tập luyện 30 ngày cho người mới</h3>
+                        <p>Lộ trình tập luyện 30 ngày được thiết kế đặc biệt cho người mới bắt đầu, giúp xây dựng thói quen và nền tảng thể lực vững chắc.</p>
+                        <a href="#">Xem lộ trình <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="community">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&w=800&q=80" alt="Cộng đồng">
+                        <span class="news-category">Cộng đồng</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fa-solid fa-calendar"></i> 15/12/2024</span>
+                            <span class="news-read-time"><i class="fa-solid fa-clock"></i> 5 phút đọc</span>
+                        </div>
+                        <h3>Câu chuyện thành công: Từ 0 đến hero</h3>
+                        <p>Chia sẻ câu chuyện truyền cảm hứng từ khách hàng của MENXPORT - hành trình thay đổi cuộc sống nhờ tập luyện đúng cách.</p>
+                        <a href="#">Đọc câu chuyện <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                        </div>
+                    </div>
+                    <aside class="news-sidebar">
+                    <div class="sidebar-widget">
+                        <h3><i class="fa-solid fa-fire"></i> Bài viết nổi bật</h3>
+                        <div class="popular-posts">
+                            <article class="popular-post">
+                                <div class="popular-image">
+                                    <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=150&q=80" alt="Bột điện giải">
+                                </div>
+                                <div class="popular-content">
+                                    <h4>Bột điện giải Kamizol</h4>
+                                    <span class="popular-date"><i class="fa-solid fa-calendar"></i> 15/01/2025</span>
+                                </div>
+                            </article>
+                            <article class="popular-post">
+                                <div class="popular-image">
+                                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=150&q=80" alt="Tập luyện">
+                                </div>
+                                <div class="popular-content">
+                                    <h4>5 bài tập tay hiệu quả</h4>
+                                    <span class="popular-date"><i class="fa-solid fa-calendar"></i> 08/01/2025</span>
+                                </div>
+                            </article>
+                            <article class="popular-post">
+                                <div class="popular-image">
+                                    <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a52?auto=format&fit=crop&w=150&q=80" alt="Review">
+                                </div>
+                                <div class="popular-content">
+                                    <h4>Review Bộ Tạ 8 Cạnh DKS</h4>
+                                    <span class="popular-date"><i class="fa-solid fa-calendar"></i> 05/01/2025</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="sidebar-widget">
+                        <h3><i class="fa-solid fa-tags"></i> Danh mục</h3>
+                        <div class="category-list">
+                            <a href="#" class="category-item">
+                                <i class="fa-solid fa-star"></i>
+                                <span>Review sản phẩm</span>
+                                <span class="category-count">12</span>
+                            </a>
+                            <a href="#" class="category-item">
+                                <i class="fa-solid fa-heart-pulse"></i>
+                                <span>Sức khỏe - Thể thao</span>
+                                <span class="category-count">18</span>
+                            </a>
+                            <a href="#" class="category-item">
+                                <i class="fa-solid fa-book"></i>
+                                <span>Hướng dẫn</span>
+                                <span class="category-count">15</span>
+                            </a>
+                            <a href="#" class="category-item">
+                                <i class="fa-solid fa-users"></i>
+                                <span>Cộng đồng</span>
+                                <span class="category-count">8</span>
+                            </a>
+                        </div>
+                    </div>
+                        <div class="sidebar-widget">
+                            <h3><i class="fa-solid fa-bullhorn"></i> Đăng ký nhận tin</h3>
+                            <p class="helper-text helper-text--spaced">Nhận thông báo về bài viết mới và ưu đãi đặc biệt</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Email của bạn" required>
+                                <button type="submit" class="btn btn-primary">Đăng ký</button>
+                            </form>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-pagination">
+            <div class="container section-shell">
+                <div class="pagination">
+                    <button class="pagination-button"><i class="fa-solid fa-chevron-left"></i> Trước</button>
+                    <button class="pagination-button active">1</button>
+                    <button class="pagination-button">2</button>
+                    <button class="pagination-button">3</button>
+                    <button class="pagination-button">Tiếp theo <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
             </div>
         </section>
     </main>
@@ -218,6 +450,72 @@
     </footer>
 
     <script src="../JS/xu-ly-chung.js" defer></script>
+    <script>
+        // News filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const category = this.dataset.category;
+                    const newsCards = document.querySelectorAll('.news-card');
+                    
+                    newsCards.forEach(card => {
+                        if (category === 'all' || card.dataset.category === category) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 10);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+
+            // News search functionality
+            const searchInput = document.getElementById('news-search');
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    const query = this.value.toLowerCase().trim();
+                    const newsCards = document.querySelectorAll('.news-card');
+                    
+                    newsCards.forEach(card => {
+                        const title = card.querySelector('h2, h3')?.textContent.toLowerCase() || '';
+                        const content = card.querySelector('p')?.textContent.toLowerCase() || '';
+                        
+                        if (query === '' || title.includes(query) || content.includes(query)) {
+                            card.style.display = 'block';
+                            card.style.opacity = '1';
+                        } else {
+                            card.style.opacity = '0';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            }
+
+            // Newsletter form
+            document.querySelectorAll('.newsletter-form').forEach(form => {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const email = this.querySelector('input[type="email"]').value;
+                    if (email) {
+                        alert('Cảm ơn bạn đã đăng ký nhận tin! Chúng tôi sẽ gửi thông báo về bài viết mới đến email của bạn.');
+                        this.reset();
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
 

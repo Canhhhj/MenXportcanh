@@ -57,7 +57,7 @@ function renderCartTable() {
 
         return `
             <tr>
-                <td>
+                <td data-label="">
                     <div class="cart-product">
                         <img src="${productImage}" alt="${productName}" onerror="this.src='../taiNguyen/img/logo/logomenxport.png'">
                         <div>
@@ -66,16 +66,16 @@ function renderCartTable() {
                         </div>
                     </div>
                 </td>
-                <td>${formatCurrency(unitPrice)}</td>
-                <td>
+                <td data-label="Đơn giá">${formatCurrency(unitPrice)}</td>
+                <td data-label="Số lượng">
                     <div class="qty-control">
                         <button class="qty-btn" data-action="decrease" data-index="${index}">-</button>
                         <span>${item.soLuong || 1}</span>
                         <button class="qty-btn" data-action="increase" data-index="${index}">+</button>
                     </div>
                 </td>
-                <td>${formatCurrency(calculateLinePrice(item))}</td>
-                <td>
+                <td data-label="Thành tiền">${formatCurrency(calculateLinePrice(item))}</td>
+                <td data-label="">
                     <button class="remove-btn" data-action="remove" data-index="${index}" title="Xóa sản phẩm">
                         <i class="fa-solid fa-xmark"></i>
                     </button>
@@ -119,29 +119,71 @@ function updateQuantity(index, delta) {
         console.error("Không tìm thấy sản phẩm tại index:", index);
         return;
     }
-    const newQuantity = Math.max(1, (target.soLuong || 1) + delta);
+    const oldQuantity = target.soLuong || 1;
+    const newQuantity = Math.max(1, oldQuantity + delta);
+    
+    if (newQuantity === oldQuantity && delta < 0) {
+        // Đã đạt số lượng tối thiểu
+        if (typeof showWarning === 'function') {
+            showWarning('Số lượng tối thiểu là 1', 'Giỏ hàng');
+        }
+        return;
+    }
+    
     target.soLuong = newQuantity;
     saveCartItems(items);
     renderCartTable();
     if (typeof updateCartCount === 'function') {
         updateCartCount();
     }
+    
+    // Hiển thị thông báo cập nhật số lượng
+    const product = productLookup.get(target.id) || target;
+    const productName = product.ten || target.ten || 'Sản phẩm';
+    if (typeof showSuccess === 'function') {
+        if (delta > 0) {
+            showSuccess(`Đã tăng số lượng "${productName}" lên ${newQuantity}`, 'Cập nhật giỏ hàng', 2000);
+        } else {
+            showSuccess(`Đã giảm số lượng "${productName}" xuống ${newQuantity}`, 'Cập nhật giỏ hàng', 2000);
+        }
+    }
 }
 
 function removeItem(index) {
-    if (!confirm('Bạn có chắc muốn xóa sản phẩm này khỏi giỏ hàng?')) {
+    const items = getCartItems();
+    if (index < 0 || index >= items.length) {
+        console.error("Index không hợp lệ:", index);
         return;
     }
-    const items = getCartItems();
-    if (index >= 0 && index < items.length) {
+    
+    const itemToRemove = items[index];
+    const product = productLookup.get(itemToRemove.id) || itemToRemove;
+    const productName = product.ten || itemToRemove.ten || 'Sản phẩm';
+    
+    // Hiển thị toast xác nhận (không dùng confirm nữa)
+    // Nếu có hàm showConfirm thì dùng, nếu không thì xóa luôn
+    if (typeof showConfirm === 'function') {
+        // Có thể tạo hàm showConfirm sau nếu cần
         items.splice(index, 1);
         saveCartItems(items);
         renderCartTable();
         if (typeof updateCartCount === 'function') {
             updateCartCount();
         }
+        if (typeof showSuccess === 'function') {
+            showSuccess(`Đã xóa "${productName}" khỏi giỏ hàng`, 'Xóa sản phẩm');
+        }
     } else {
-        console.error("Index không hợp lệ:", index);
+        // Xóa luôn và hiển thị thông báo
+        items.splice(index, 1);
+        saveCartItems(items);
+        renderCartTable();
+        if (typeof updateCartCount === 'function') {
+            updateCartCount();
+        }
+        if (typeof showSuccess === 'function') {
+            showSuccess(`Đã xóa "${productName}" khỏi giỏ hàng`, 'Xóa sản phẩm');
+        }
     }
 }
 

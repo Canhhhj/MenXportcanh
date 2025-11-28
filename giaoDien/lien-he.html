@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../CSS/giao-dien-chinh.css">
+    <link rel="stylesheet" href="../CSS/mobile-responsive.css">
 </head>
 <body class="contact-page">
     <div class="utility-strip">
@@ -70,46 +71,165 @@
             </div>
         </section>
 
-        <section class="contact-grid container">
-            <div class="contact-card">
-                <h3>Hà Nội Showroom</h3>
-                <p><i class="fa-solid fa-location-dot"></i> Số 31, Ngõ 521, Phạm Văn Đồng, Hà Nội</p>
-                <p><i class="fa-solid fa-clock"></i> Hỗ trợ tất cả các giờ trong ngày</p>
-                <p><i class="fa-solid fa-phone"></i> 0878 153 630</p>
-            </div>
-            <div class="contact-card">
-                <h3>Hợp tác B2B</h3>
-                <p><i class="fa-solid fa-envelope"></i> menxportvietnam@gmail.com</p>
-                <p><i class="fa-solid fa-phone-volume"></i> 0878 153 630</p>
-                <p><i class="fa-solid fa-briefcase"></i> Tư vấn dụng cụ thể thao, dự án doanh nghiệp</p>
+        <section class="contact-grid">
+            <div class="container section-shell">
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-store"></i></div>
+                    <h3>Hà Nội Showroom</h3>
+                    <div class="contact-info">
+                        <p><i class="fa-solid fa-location-dot"></i> <strong>Địa chỉ:</strong> Số 31, Ngõ 521, Phạm Văn Đồng, Hà Nội</p>
+                        <p><i class="fa-solid fa-clock"></i> <strong>Giờ làm việc:</strong> 8:00 - 22:00 hàng ngày</p>
+                        <p><i class="fa-solid fa-phone"></i> <strong>Hotline:</strong> <a href="tel:0878153630">0878 153 630</a></p>
+                        <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> <a href="mailto:menxportvietnam@gmail.com">menxportvietnam@gmail.com</a></p>
+                    </div>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Số+31+Ngõ+521+Phạm+Văn+Đồng+Hà+Nội" target="_blank" class="btn btn-secondary">Xem bản đồ <i class="fa-solid fa-map"></i></a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-handshake"></i></div>
+                    <h3>Hợp tác B2B</h3>
+                    <div class="contact-info">
+                        <p><i class="fa-solid fa-briefcase"></i> <strong>Dịch vụ:</strong> Tư vấn dụng cụ thể thao, dự án doanh nghiệp</p>
+                        <p><i class="fa-solid fa-phone-volume"></i> <strong>Hotline:</strong> <a href="tel:0878153630">0878 153 630</a></p>
+                        <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> <a href="mailto:menxportvietnam@gmail.com">menxportvietnam@gmail.com</a></p>
+                        <p><i class="fa-solid fa-users"></i> <strong>Đối tác:</strong> Hỗ trợ tư vấn và báo giá cho doanh nghiệp</p>
+                    </div>
+                    <a href="mailto:menxportvietnam@gmail.com?subject=Yêu cầu hợp tác B2B" class="btn btn-secondary">Liên hệ B2B <i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-headset"></i></div>
+                    <h3>Hỗ trợ khách hàng</h3>
+                    <div class="contact-info">
+                        <p><i class="fa-solid fa-clock"></i> <strong>Thời gian:</strong> 24/7 - Hỗ trợ mọi lúc</p>
+                        <p><i class="fa-solid fa-phone"></i> <strong>Hotline:</strong> <a href="tel:0878153630">0878 153 630</a></p>
+                        <p><i class="fa-solid fa-comments"></i> <strong>Zalo:</strong> <a href="tel:0878153630">0878 153 630</a></p>
+                        <p><i class="fa-solid fa-shield-halved"></i> <strong>Bảo hành:</strong> Hỗ trợ bảo hành và bảo trì</p>
+                    </div>
+                    <a href="tel:0878153630" class="btn btn-primary">Gọi ngay <i class="fa-solid fa-phone"></i></a>
+                </div>
             </div>
         </section>
 
-        <section class="contact-form-section container" id="setup">
-            <div class="form-wrapper">
-                <h3>Gửi yêu cầu trực tuyến</h3>
-                <form id="contact-form">
-                    <label>Họ và tên
-                        <input type="text" id="contact-name" required>
-                    </label>
-                    <label>Email
-                        <input type="email" id="contact-email" required>
-                    </label>
-                    <label>Số điện thoại
-                        <input type="tel" id="contact-phone" required>
-                    </label>
-                    <label>Nội dung
-                        <textarea id="contact-message" rows="5" required></textarea>
-                    </label>
-                    <button type="submit" class="btn btn-primary">Gửi yêu cầu</button>
-                </form>
-                <div class="form-success" id="contact-success" style="display:none;">
-                    <i class="fa-solid fa-circle-check"></i>
-                    <p>Cảm ơn bạn! Menxport sẽ phản hồi sớm nhất có thể.</p>
+        <section class="contact-social">
+            <div class="container section-shell">
+                <div class="section-heading">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <p>Theo dõi MENXPORT trên các kênh mạng xã hội để nhận thông tin mới nhất</p>
+                </div>
+                <div class="social-links-grid">
+                    <a href="https://www.facebook.com/share/17iakPF9Md/?mibextid=wwXIfr" target="_blank" class="social-link facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <div>
+                            <h4>Facebook</h4>
+                            <p>Theo dõi cập nhật và ưu đãi</p>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/@MenXportVietNam" target="_blank" class="social-link youtube">
+                        <i class="fab fa-youtube"></i>
+                        <div>
+                            <h4>YouTube</h4>
+                            <p>Video hướng dẫn và review</p>
+                        </div>
+                    </a>
+                    <a href="https://www.tiktok.com/@menxnportvietnam?_r=1&_t=ZS-91ZUed3xJHm" target="_blank" class="social-link tiktok">
+                        <i class="fab fa-tiktok"></i>
+                        <div>
+                            <h4>TikTok</h4>
+                            <p>Nội dung ngắn và tips tập luyện</p>
+                        </div>
+                    </a>
+                    <a href="tel:0878153630" class="social-link zalo">
+                        <i class="fab fa-zalo"></i>
+                        <div>
+                            <h4>Zalo</h4>
+                            <p>Chat trực tiếp với chúng tôi</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="map-frame">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.747994374739!2d105.77057407609073!3d21.00290498800809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzEgTmfDuiA1MjEsIFBo4bqhbeG7mSBWxINuIMSQ4buNbmcsIEjDoGkgQsOsbmgsIEjDoGkgQsOsbmgsIFZpZXRuYW0!5e0!3m2!1svi!2s!4v1732100000000!5m2!1svi!2s&q=Số+31+Ngõ+521+Phạm+Văn+Đồng+Hà+Nội" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-faq">
+            <div class="container section-shell">
+                <div class="section-heading">
+                    <h3>Câu hỏi thường gặp</h3>
+                    <p>Những câu hỏi phổ biến của khách hàng về MENXPORT</p>
+                </div>
+                <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4><i class="fa-solid fa-question-circle"></i> MENXPORT có hỗ trợ lắp đặt tại nhà không?</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Có, MENXPORT cung cấp dịch vụ lắp đặt miễn phí tại nhà trong vòng 24h tại Hà Nội. Đội ngũ kỹ thuật chuyên nghiệp sẽ đến tận nơi để lắp đặt và hướng dẫn sử dụng thiết bị.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4><i class="fa-solid fa-question-circle"></i> Chính sách bảo hành như thế nào?</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tất cả sản phẩm của MENXPORT được bảo hành chính hãng 24 tháng. Ngoài ra, chúng tôi cung cấp dịch vụ bảo trì trọn đời cho khách hàng. Mọi sản phẩm lỗi do nhà sản xuất sẽ được đổi mới trong 30 ngày đầu.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4><i class="fa-solid fa-question-circle"></i> Phí vận chuyển là bao nhiêu?</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>MENXPORT miễn phí vận chuyển cho đơn hàng từ 2.000.000₫ trở lên trên toàn quốc. Đơn hàng dưới 2.000.000₫ sẽ có phí vận chuyển 50.000₫. Giao hàng nhanh 2H tại Hà Nội & TP.HCM.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4><i class="fa-solid fa-question-circle"></i> Có thể đổi trả sản phẩm không?</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Có, khách hàng có thể đổi trả miễn phí trong vòng 30 ngày nếu sản phẩm có lỗi từ nhà sản xuất. Sản phẩm phải còn nguyên vẹn, chưa sử dụng và có hóa đơn mua hàng.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4><i class="fa-solid fa-question-circle"></i> MENXPORT có tư vấn thiết kế không gian tập luyện không?</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Có, MENXPORT cung cấp dịch vụ tư vấn thiết kế không gian tập luyện miễn phí. Chúng tôi sẽ đến tận nơi để khảo sát, tư vấn và đề xuất giải pháp phù hợp với nhu cầu và ngân sách của bạn.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-section" id="setup">
+            <div class="container section-shell">
+                <div class="form-wrapper">
+                    <h3>Gửi yêu cầu trực tuyến</h3>
+                    <form id="contact-form">
+                        <label>Họ và tên
+                            <input type="text" id="contact-name" required>
+                        </label>
+                        <label>Email
+                            <input type="email" id="contact-email" required>
+                        </label>
+                        <label>Số điện thoại
+                            <input type="tel" id="contact-phone" required>
+                        </label>
+                        <label>Nội dung
+                            <textarea id="contact-message" rows="5" required></textarea>
+                        </label>
+                        <button type="submit" class="btn btn-primary">Gửi yêu cầu</button>
+                    </form>
+                    <div class="form-success" id="contact-success" style="display:none;">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Cảm ơn bạn! Menxport sẽ phản hồi sớm nhất có thể.</p>
+                    </div>
+                </div>
+                <div class="map-frame">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.747994374739!2d105.77057407609073!3d21.00290498800809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzEgTmfDuiA1MjEsIFBo4bqhbeG7mSBWxINuIMSQ4buNbmcsIEjDoGkgQsOsbmgsIEjDoGkgQsOsbmgsIFZpZXRuYW0!5e0!3m2!1svi!2s!4v1732100000000!5m2!1svi!2s&q=Số+31+Ngõ+521+Phạm+Văn+Đồng+Hà+Nội" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </section>
     </main>
@@ -152,10 +272,10 @@
                 </form>
             </div>
         </div>
-        <div class="footer-company-info" style="text-align: center; padding: 20px 0; border-top: 1px solid #eee; margin-top: 20px;">
-            <p style="margin: 5px 0;"><strong>CÔNG TY MENXPORT</strong></p>
-            <p style="margin: 5px 0; color: #666;">Địa chỉ: Số 31, Ngõ 521, Phạm Văn Đồng, Hà Nội</p>
-            <p style="margin: 5px 0; color: #666;">Hotline: 0878 153 630 | Email: menxportvietnam@gmail.com</p>
+        <div class="footer-company-info">
+            <p><strong>CÔNG TY MENXPORT</strong></p>
+            <p>Địa chỉ: Số 31, Ngõ 521, Phạm Văn Đồng, Hà Nội</p>
+            <p>Hotline: 0878 153 630 | Email: menxportvietnam@gmail.com</p>
         </div>
         <p class="copyright">© 2025 MENXPORT - POWER DEPARTURE. Mọi quyền được bảo lưu.</p>
     </footer>
@@ -217,6 +337,22 @@
                 
                 alert('Cảm ơn bạn đã đăng ký! Chúng tôi sẽ gửi thông tin ưu đãi đến email của bạn.');
                 if (emailInput) emailInput.value = '';
+            });
+        });
+
+        // FAQ functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', function() {
+                const faqItem = this.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                }
             });
         });
     </script>

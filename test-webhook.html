@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Google Sheet Webhook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            background: #f5f5f5;
+            white-space: pre-wrap;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Google Sheet Webhook</h1>
+    <p>Click nút bên dưới để test webhook. Dữ liệu test sẽ được gửi đến Google Sheet.</p>
+    
+    <button onclick="testWebhook()">Test Webhook</button>
+    <button onclick="testDoGet()">Test doGet (Kiểm tra webhook hoạt động)</button>
+    
+    <div id="result"></div>
+
+    <script>
+        const WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbzjdNrN6zcwgf_Ol_YF0Cj17DwZ5V8DW64zaPtvNe3TF6M0cWSWgAU5sT7BNSuNDdRv/exec';
+
+        async function testWebhook() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = 'Đang gửi dữ liệu test...';
+            resultDiv.className = '';
+
+            // Dữ liệu test giống như đơn hàng thật
+            const testData = {
+                orderCode: 'TEST-' + Date.now(),
+                name: 'Nguyễn Văn Test',
+                phone: '0123456789',
+                email: 'test@example.com',
+                address: '123 Đường Test, Quận Test, TP Test',
+                products: 'Sản phẩm Test x 1 (SL: 1, Giá: 100,000₫)',
+                payment: 'Thanh toán khi nhận hàng',
+                orderDate: new Date().toLocaleString('vi-VN', {
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit'
+                })
+            };
+
+            try {
+                const response = await fetch(WEBHOOK_URL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {
+                        'Content-Type': 'text/plain;charset=UTF-8'
+                    },
+                    body: JSON.stringify(testData)
+                });
+
+                // Với mode: 'no-cors', không thể đọc response
+                resultDiv.textContent = '✅ Đã gửi dữ liệu test!\n\n' +
+                    'Dữ liệu đã gửi:\n' +
+                    JSON.stringify(testData, null, 2) +
+                    '\n\n⚠️ Lưu ý: Với mode no-cors, không thể đọc response từ server.\n' +
+                    'Vui lòng kiểm tra Google Sheet để xem dữ liệu có xuất hiện không.\n' +
+                    'Nếu không thấy, kiểm tra Apps Script > Executions để xem lỗi.';
+                resultDiv.className = 'success';
+            } catch (error) {
+                resultDiv.textContent = '❌ Lỗi khi gửi dữ liệu:\n' + error.toString();
+                resultDiv.className = 'error';
+            }
+        }
+
+        async function testDoGet() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = 'Đang kiểm tra webhook...';
+            resultDiv.className = '';
+
+            try {
+                const response = await fetch(WEBHOOK_URL, {
+                    method: 'GET',
+                    mode: 'cors'
+                });
+
+                if (response.ok) {
+                    const text = await response.text();
+                    resultDiv.textContent = '✅ Webhook đang hoạt động!\n\n' +
+                        'Response: ' + text;
+                    resultDiv.className = 'success';
+                } else {
+                    resultDiv.textContent = '⚠️ Webhook trả về status: ' + response.status;
+                    resultDiv.className = 'error';
+                }
+            } catch (error) {
+                resultDiv.textContent = '❌ Lỗi khi kiểm tra webhook:\n' + error.toString() +
+                    '\n\nCó thể do CORS. Đây là bình thường với Google Apps Script.\n' +
+                    'Webhook vẫn có thể hoạt động khi gửi POST request.';
+                resultDiv.className = 'error';
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+

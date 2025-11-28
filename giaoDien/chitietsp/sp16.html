@@ -100,8 +100,18 @@
                         <button type="button" class="qty-btn" onclick="increaseQty()">+</button>
                     </div>
                     <div class="product-actions">
-                        <button class="btn btn-primary" onclick="addToCart()">Thêm vào giỏ</button>
-                        <button class="btn btn-secondary" onclick="buyNow()">Mua ngay</button>
+                        <button class="btn btn-primary btn-add-to-cart" 
+                                id="add-to-cart-btn"
+                                data-id=""
+                                data-ten=""
+                                data-gia=""
+                                data-hinh="">Thêm vào giỏ</button>
+                        <button class="btn btn-secondary btn-buy-now" 
+                                id="buy-now-btn"
+                                data-id=""
+                                data-ten=""
+                                data-gia=""
+                                data-hinh="">Mua ngay</button>
                     </div>
                 </div>
 
@@ -368,63 +378,184 @@
 
     <script src="../../JS/xu-ly-chung.js"></script>
     <script>
+        // Khởi tạo biến global
         let quantity = 1;
-        const priceElement = document.querySelector('.price-section .current-price');
-        const variantState = window.initVariantSelector ? window.initVariantSelector({
-            key: 'day-khang-sp001',
+        let variantState = null;
+        let baseProductConfig = null;
+        
+        // Đợi DOM và script load xong
+        function initProductPage() {
+            // Đảm bảo các hàm từ xu-ly-chung.js đã sẵn sàng
+            // Kiểm tra cả addToCart và window.addToCart
+            if ((typeof addToCart !== 'function' && typeof window.addToCart !== 'function') || 
+                (typeof buyNow !== 'function' && typeof window.buyNow !== 'function')) {
+                
+                setTimeout(initProductPage, 50);
+                return;
+            }
+            
+            // Khởi tạo trang
+            quantity = 1;
+            const priceElement = document.querySelector('.price-section .current-price');
+            variantState = window.initVariantSelector ? window.initVariantSelector({
+                key: 'day-khang-sp001',
             priceElement,
-            defaultOptionId: 'day-khang-xanh-la'
-        }) : null;
-        const baseProductConfig = {
-            baseName: 'Dây kháng lực mini band SP001',
+            defaultOptionId: 'day-khang-xanh-la',
+                onChange: function(variant) {
+                    // Cập nhật lại data attributes khi variant thay đổi
+                    updateButtonDataAttributes();
+                }
+            }) : null;
+            baseProductConfig = {
+                baseName: 'Dây kháng lực mini band SP001',
             defaultName: 'Dây kháng lực mini band SP001 - xanh lá',
             id: 'day-khang-xanh-la',
             price: 290000,
             image: '../../taiNguyen/img/sanpham/sp16.Dây kháng lực mini band STT15/image.png'
         };
-        function changeImage(src) {
-            document.getElementById('main-image').src = src;
+            
+            // Cập nhật data attributes cho các nút
+            updateButtonDataAttributes();
+            
+            // Thiết lập event listeners giống như trang chủ
+            setupDetailPageListeners();
+            
+            if (typeof updateCartCount === 'function') updateCartCount();
         }
+        
+        // Cập nhật data attributes cho các nút dựa trên product config
+        function updateButtonDataAttributes() {
+            if (!baseProductConfig) return;
+            
+            // Lấy product payload hiện tại
+            let product;
+            if (typeof window.buildProductPayload === 'function' && variantState) {
+                product = window.buildProductPayload(baseProductConfig, variantState, quantity);
+            } else {
+                product = {
+                    id: baseProductConfig.id,
+                    ten: baseProductConfig.defaultName || baseProductConfig.baseName,
+                    gia: baseProductConfig.price,
+                    gia_khuyen_mai: baseProductConfig.gia_khuyen_mai || baseProductConfig.price,
+                    hinh: baseProductConfig.image,
+                    soLuong: quantity
+                };
+            }
+            
+            const finalPrice = product.gia_khuyen_mai && product.gia_khuyen_mai < product.gia ? product.gia_khuyen_mai : product.gia;
+            
+            const addToCartBtn = document.getElementById('add-to-cart-btn');
+            const buyNowBtn = document.getElementById('buy-now-btn');
+            
+            if (addToCartBtn) {
+                addToCartBtn.setAttribute('data-id', product.id);
+                addToCartBtn.setAttribute('data-ten', product.ten);
+                addToCartBtn.setAttribute('data-gia', finalPrice);
+                addToCartBtn.setAttribute('data-hinh', product.hinh || '');
+            }
+            
+            if (buyNowBtn) {
+                buyNowBtn.setAttribute('data-id', product.id);
+                buyNowBtn.setAttribute('data-ten', product.ten);
+                buyNowBtn.setAttribute('data-gia', finalPrice);
+                buyNowBtn.setAttribute('data-hinh', product.hinh || '');
+            }
+        }
+        
+        // Thiết lập event listeners giống như trang chủ
+        function setupDetailPageListeners() {
+            // Xử lý nút "Thêm vào giỏ"
+            const addToCartBtn = document.getElementById('add-to-cart-btn');
+            if (addToCartBtn) {
+                // Xóa listener cũ nếu có
+                const newAddBtn = addToCartBtn.cloneNode(true);
+                addToCartBtn.parentNode.replaceChild(newAddBtn, addToCartBtn);
+                
+                newAddBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    updateButtonDataAttributes(); // Cập nhật lại data attributes trước khi thêm
+                    const productData = {
+                        id: this.getAttribute('data-id'),
+                        ten: this.getAttribute('data-ten'),
+                        gia: parseInt(this.getAttribute('data-gia')) || 0,
+                        hinh: this.getAttribute('data-hinh') || ''
+                    };
+                    if (!productData.id || !productData.ten) {
+                        alert("Có lỗi xảy ra. Vui lòng thử lại!");
+                        return;
+                    }
+                    // Gọi trực tiếp hàm addToCart từ xu-ly-chung.js (giống trang chủ)
+                    if (typeof addToCart === 'function') {
+                        addToCart(productData, quantity);
+                    } else if (typeof window.addToCart === 'function') {
+                        window.addToCart(productData, quantity);
+                    }
+                });
+            }
+            
+            // Xử lý nút "Mua ngay"
+            const buyNowBtn = document.getElementById('buy-now-btn');
+            if (buyNowBtn) {
+                // Xóa listener cũ nếu có
+                const newBuyBtn = buyNowBtn.cloneNode(true);
+                buyNowBtn.parentNode.replaceChild(newBuyBtn, buyNowBtn);
+                
+                newBuyBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    updateButtonDataAttributes(); // Cập nhật lại data attributes trước khi mua
+                    const productData = {
+                        id: this.getAttribute('data-id'),
+                        ten: this.getAttribute('data-ten'),
+                        gia: parseInt(this.getAttribute('data-gia')) || 0,
+                        hinh: this.getAttribute('data-hinh') || ''
+                    };
+                    if (!productData.id || !productData.ten) {
+                        alert("Có lỗi xảy ra. Vui lòng thử lại!");
+                        return;
+                    }
+                    // Gọi hàm buyNow từ xu-ly-chung.js (giống trang chủ)
+                    if (typeof buyNow === 'function') {
+                        buyNow(productData, quantity);
+                    } else if (typeof window.buyNow === 'function') {
+                        window.buyNow(productData, quantity);
+                    }
+                });
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', initProductPage);
+        
+        // Định nghĩa các hàm ở global scope để onclick có thể gọi
         function increaseQty() {
             quantity++;
             document.getElementById('quantity-value').textContent = quantity;
         }
+        
         function decreaseQty() {
             if (quantity > 1) {
                 quantity--;
                 document.getElementById('quantity-value').textContent = quantity;
             }
         }
-        function showTab(tabName) {
-            document.querySelectorAll('.tab-pane').forEach(pane => {
-                pane.style.display = 'none';
-            });
+        
+        function changeImage(src) {
+            document.getElementById('main-image').src = src;
+        }
+        
+        function showTab(tabName, event) {
+            document.querySelectorAll('.tab-pane').forEach(pane => pane.style.display = 'none');
             document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
             document.getElementById(tabName + '-tab').style.display = 'block';
-            event.target.classList.add('active');
-        }
-        function addToCart() {
-            const product = typeof window.buildProductPayload === 'function'
-                ? window.buildProductPayload(baseProductConfig, variantState, quantity)
-                : {
-                    id: baseProductConfig.id,
-                    ten: baseProductConfig.defaultName || baseProductConfig.baseName,
-                    gia: baseProductConfig.price,
-                    gia_khuyen_mai: baseProductConfig.price,
-                    hinh: baseProductConfig.image,
-                    soLuong: quantity
-                };
-            if (typeof window.addToCart === 'function') {
-                window.addToCart(product, quantity);
+            if (event && event.target) {
+                event.target.classList.add('active');
+            } else {
+                document.querySelector('.tab-button[onclick*="' + tabName + '"]').classList.add('active');
             }
         }
-        function buyNow() {
-            addToCart();
-            setTimeout(() => {
-                window.location.href = '../thanh-toan.html';
-            }, 500);
-        }
-        if (typeof updateCartCount === 'function') updateCartCount();
+        
+        
     </script>
 </body>
 </html>

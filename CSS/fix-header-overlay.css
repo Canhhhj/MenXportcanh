@@ -1,0 +1,219 @@
+/* ========================================
+   FIX HEADER OVERLAYING CONTENT
+   Sửa lỗi header che mất nội dung
+   ======================================== */
+
+/* Đảm bảo main content không bị header che */
+main {
+    position: relative;
+    z-index: 1;
+    min-height: calc(100vh - 200px); /* Đảm bảo có đủ không gian */
+}
+
+/* Tính toán chiều cao header và thêm padding cho main */
+body > main {
+    padding-top: 0; /* Desktop - header không sticky che */
+    margin-top: 0;
+}
+
+/* Trên mobile, header sticky nên cần padding */
+@media (max-width: 768px) {
+    /* Đảm bảo utility strip không che */
+    .utility-strip {
+        position: relative;
+        z-index: 1001;
+    }
+    
+    /* Header sticky */
+    .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: var(--surface);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Main content - đảm bảo không bị che */
+    body > main {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    
+    /* Đảm bảo section đầu tiên có spacing */
+    main > section:first-child {
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+    
+    /* Page hero cần padding-top thêm */
+    .page-hero {
+        padding-top: 2.5rem !important;
+        margin-top: 0 !important;
+    }
+    
+    /* Hero block cần padding-top */
+    .hero-block {
+        padding-top: 2rem;
+        margin-top: 0;
+    }
+    
+    /* Product section đầu tiên */
+    main > .product-section:first-child {
+        padding-top: 2rem;
+        margin-top: 0;
+    }
+    
+    /* Đảm bảo tất cả sections có spacing */
+    main > section {
+        scroll-margin-top: 100px; /* Khi scroll đến section, có khoảng cách với header */
+    }
+}
+
+/* Đảm bảo category dropdown không che nội dung */
+.category-dropdown {
+    z-index: 1002; /* Cao hơn header */
+    max-height: calc(100vh - 200px); /* Không vượt quá viewport */
+    overflow-y: auto;
+}
+
+/* Đảm bảo toast không bị che */
+.toast-container {
+    z-index: 10000; /* Cao nhất */
+    top: 80px; /* Dưới header một chút */
+}
+
+@media (max-width: 768px) {
+    .toast-container {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+    }
+}
+
+/* Đảm bảo order summary sticky không che trên mobile */
+@media (max-width: 768px) {
+    .order-summary {
+        position: sticky;
+        top: 80px; /* Dưới header */
+        z-index: 5; /* Thấp hơn header */
+        margin-bottom: 1rem;
+    }
+    
+    /* Khi scroll, đảm bảo content không bị che */
+    .checkout-layout {
+        padding-top: 0;
+    }
+}
+
+/* Fix cho utility strip trên mobile */
+@media (max-width: 768px) {
+    .utility-strip {
+        position: relative;
+        z-index: 1001;
+    }
+    
+    /* Nếu utility strip bị ẩn hoặc compact */
+    .utility-strip.hidden {
+        display: none;
+    }
+}
+
+/* Đảm bảo navigation highlight không che */
+.nav-highlight {
+    position: relative;
+    z-index: 999; /* Thấp hơn header */
+}
+
+/* Fix cho các section có background */
+.section-shell,
+.product-section {
+    position: relative;
+    z-index: 1;
+}
+
+/* Đảm bảo hero section không bị che */
+.hero-block {
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+}
+
+/* Fix spacing cho tất cả các trang */
+body.home-page main > section:first-child,
+body.products-page main > section:first-child,
+body.product-detail-page main > section:first-child {
+    margin-top: 0;
+}
+
+/* Đảm bảo không có element nào có z-index quá cao che header */
+* {
+    max-z-index: 9999; /* Giới hạn z-index tối đa (trừ header và toast) */
+}
+
+/* Fix cụ thể cho mobile - thêm padding cho main */
+@media (max-width: 768px) {
+    /* Tính toán: utility-strip (~40px) + header-main (~60px) + nav-highlight (~60px) = ~160px */
+    body > main {
+        padding-top: 0; /* Không cần vì header sticky sẽ tự động đẩy content xuống */
+    }
+    
+    /* Nhưng đảm bảo section đầu tiên có spacing */
+    main > section:first-of-type {
+        margin-top: 1rem;
+    }
+    
+    /* Hero block đặc biệt */
+    .hero-block:first-of-type {
+        margin-top: 0;
+        padding-top: 1.5rem;
+    }
+}
+
+/* Fix cho category dropdown trên mobile */
+@media (max-width: 768px) {
+    .category-dropdown {
+        position: fixed; /* Thay vì absolute */
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-height: 60vh;
+        border-radius: 20px 20px 0 0;
+        z-index: 1003;
+        box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    /* Overlay khi dropdown mở */
+    .category-dropdown::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+    }
+}
+
+/* Đảm bảo search field không che trên mobile */
+@media (max-width: 768px) {
+    .search-field {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+/* Fix cho header actions */
+.header-actions {
+    position: relative;
+    z-index: 1;
+}
+
+/* Đảm bảo logo không bị che */
+.logo {
+    position: relative;
+    z-index: 1;
+}
+
