@@ -639,29 +639,17 @@ function buildPriceBlock(product) {
     `;
 }
 
-function resolveImagePath(p) {
-    if (!p) return '../taiNguyen/img/logo/logomenxport.png';
-    let s = p;
-    if (s.startsWith('../')) {
-        while (s.startsWith('../')) s = s.slice(3);
-        s = '/' + s;
-    }
-    if (!s.startsWith('/')) s = '/' + s.replace(/^\/+/, '');
-    return s;
-}
-
 function createProductCard(product) {
     const badge = product.badge ? `<span class="discount-badge">${product.badge}</span>` : '';
     const priceBlock = buildPriceBlock(product);
     // Xác định link chi tiết: nếu có detail_page thì dùng, không thì dùng trang động
     const detailLink = product.detail_page ? product.detail_page : `chitetsanpham.html?id=${product.id}`;
-    const imgSrc = resolveImagePath(product.hinh_anh_chinh);
     return `
         <article class="product-card">
             <div class="product-thumb">
                 ${badge}
                 <a href="${detailLink}">
-                    <img src="${imgSrc}" alt="${product.ten}" onerror="this.src='../taiNguyen/img/logo/logomenxport.png'">
+                    <img src="${product.hinh_anh_chinh}" alt="${product.ten}" onerror="this.src='../taiNguyen/img/logo/logomenxport.png'">
                 </a>
             </div>
             <div class="product-info">
@@ -674,14 +662,14 @@ function createProductCard(product) {
                             data-id="${product.id}"
                             data-ten="${product.ten}"
                             data-gia="${product.gia_khuyen_mai && product.gia_khuyen_mai > 0 && product.gia_khuyen_mai < product.gia ? product.gia_khuyen_mai : product.gia}"
-                            data-hinh="${imgSrc}">
+                            data-hinh="${product.hinh_anh_chinh}">
                         Thêm vào giỏ
                     </button>
                     <button class="btn btn-secondary btn-buy-now"
                             data-id="${product.id}"
                             data-ten="${product.ten}"
                             data-gia="${product.gia_khuyen_mai && product.gia_khuyen_mai > 0 && product.gia_khuyen_mai < product.gia ? product.gia_khuyen_mai : product.gia}"
-                            data-hinh="${imgSrc}">
+                            data-hinh="${product.hinh_anh_chinh}">
                         Mua ngay
                     </button>
                 </div>
